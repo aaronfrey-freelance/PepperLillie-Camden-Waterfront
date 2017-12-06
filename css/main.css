@@ -20,6 +20,12 @@ html {
   text-shadow: none;
 }
 
+a:hover,
+a:active,
+a:focus {
+  text-decoration: none;
+}
+
 hr {
   display: block;
   height: 1px;
@@ -119,30 +125,6 @@ textarea {
   opacity: 1;
 }
 
-@media only screen and (min-width: 1500px) {
-  .header .navbar .navbar-header {
-    padding-left: 4%;
-    width: 30%;
-  }
-  .header .navbar .navbar-nav {
-    width: 70%;
-  } 
-  .header .navbar .navbar-nav li a {
-    font-size: 14px;
-  }
-}
-
-@media only screen and (min-width: 1650px) {
-  .header .navbar .navbar-header {
-    padding-left: 5.5%;
-    width: 35%;
-  }
-  .header .navbar .navbar-nav {
-    width: 65%;
-    padding-left: 5.5%;
-  }
-}
-
 /* Homepage Custom Nav */
 
 #index .header .navbar {
@@ -185,11 +167,25 @@ textarea {
 }
 
 .footer .footer-container {
-  max-width: 1018px;
   margin: 0 auto;
   font-size: 14px;
   line-height: 20px;
   font-weight: 400;
+  text-align: center;
+}
+
+.footer .footer-container .liberty.bottom {
+  width: auto;
+  margin: 0 auto;
+  padding: 35px 15px 0;
+  text-align: center;
+}
+
+.footer .footer-container .liberty.bottom img {
+  padding: 23px 17px 18px 17px;
+  border-top: 1px solid #959694;
+  margin: 0 auto;
+  max-width: 131px;
 }
 
 .footer .footer-container .liberty img {
@@ -224,6 +220,10 @@ textarea {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
   }
+  .footer .footer-container {
+    text-align: left;
+    max-width: 800px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -238,7 +238,10 @@ textarea {
   #index .header .navbar .navbar-nav li a {
     font-size: 13px;
   }
-  .footer .footer-container .liberty {
+  .footer .footer-container {
+    max-width: 1018px;
+  }
+  .footer .footer-container .liberty.top {
     border-right: 1px solid #959694;
   }
 }
@@ -256,6 +259,30 @@ textarea {
 
   #index .header .navbar .navbar-nav li a {
     font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .header .navbar .navbar-header {
+    padding-left: 4%;
+    width: 30%;
+  }
+  .header .navbar .navbar-nav {
+    width: 70%;
+  } 
+  .header .navbar .navbar-nav li a {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 1650px) {
+  .header .navbar .navbar-header {
+    padding-left: 5.5%;
+    width: 35%;
+  }
+  .header .navbar .navbar-nav {
+    width: 65%;
+    padding-left: 5.5%;
   }
 }
 
