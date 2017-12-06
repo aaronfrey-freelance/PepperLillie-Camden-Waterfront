@@ -55,9 +55,12 @@ textarea {
   height: 200px;
 }
 
-.header .navbar .navbar-header {
-  padding-left: 3%;
-  width: 25%;
+.header .navbar .navbar-header .navbar-toggle {
+  background: #d2d3d1;
+}
+
+.header .navbar .navbar-header .navbar-toggle .icon-bar {
+  background-color: #00477d;
 }
 
 .header .navbar .navbar-header .navbar-brand {
@@ -164,36 +167,6 @@ textarea {
   font-size: 11px;
 }
 
-@media only screen and (min-width: 990px) {
-  #index .header .navbar .navbar-nav>li {
-    margin-right: 24px;
-  }
-
-  #index .header .navbar .navbar-nav>li>a {
-    padding: 8px;
-  }
-
-  #index .header .navbar .navbar-nav li a {
-    font-size: 13px;
-  }
-}
-
-@media only screen and (min-width: 1175px) {
-  #index .header .navbar .navbar-nav li a {
-    font-size: 16px;
-  }
-}
-
-@media only screen and (min-width: 1350px) {
-  #index .header .navbar .navbar-nav>li {
-    margin-right: 34px;
-  }
-
-  #index .header .navbar .navbar-nav li a {
-    font-size: 18px;
-  }
-}
-
 /* End Homepage Custom Nav */
 
 .content {
@@ -236,10 +209,48 @@ textarea {
   color: #000000;
 }
 
-/* Medium devices (desktops, 992px and up) */
+@media (min-width: 768px) {
+  .header .navbar .navbar-header {
+    padding-left: 3%;
+    width: 25%;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+}
+
 @media (min-width: 992px) {
+  #index .header .navbar .navbar-nav>li {
+    margin-right: 24px;
+  }
+
+  #index .header .navbar .navbar-nav>li>a {
+    padding: 8px;
+  }
+
+  #index .header .navbar .navbar-nav li a {
+    font-size: 13px;
+  }
   .footer .footer-container .liberty {
     border-right: 1px solid #959694;
+  }
+}
+
+@media only screen and (min-width: 1175px) {
+  #index .header .navbar .navbar-nav li a {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 1350px) {
+  #index .header .navbar .navbar-nav>li {
+    margin-right: 34px;
+  }
+
+  #index .header .navbar .navbar-nav li a {
+    font-size: 18px;
   }
 }
 
@@ -262,11 +273,6 @@ textarea {
 .clearfix:after {
   clear: both;
 }
-
-/* Media Queries */
-
-@media only screen and (min-width: 35em) {}
-
 
 /* Print styles */
 
