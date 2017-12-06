@@ -169,14 +169,6 @@ h2 {
   margin-bottom: 15px;
 }
 
-ul {
-  line-height: 25px;
-}
-
-li {
-  margin-top: 10px;
-}
-
 .main .content {
   font-size: 20px;
   font-weight: 400;
@@ -185,6 +177,14 @@ li {
   max-width: 1192px;
   margin: 0 auto;
   padding: 30px 0 100px 0;
+}
+
+.main .content ul {
+  line-height: 25px;
+}
+
+.main .content li {
+  margin-top: 10px;
 }
 
 .banner {
