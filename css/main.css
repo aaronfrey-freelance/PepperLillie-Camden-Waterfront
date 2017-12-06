@@ -70,6 +70,21 @@ textarea {
   padding-left: 4%;
 }
 
+.header .navbar .navbar-nav .dropdown-menu {
+  border-radius: 0;
+  border: none;
+  -webkit-box-shadow: -5px 5px 5px 0px rgba(232,232,232,1);
+  -moz-box-shadow: -5px 5px 5px 0px rgba(232,232,232,1);
+  box-shadow: -5px 5px 5px 0px rgba(232,232,232,1);
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.header .navbar .navbar-nav .dropdown-menu a {
+  padding: 5px 10px;
+}
+
 .header .navbar .navbar-nav>li {
   margin-right: 3.65%;
 }
@@ -79,11 +94,21 @@ textarea {
 }
 
 .header .navbar .navbar-nav>li>a {
+  padding: 8px 0;
+}
+
+.header .navbar .navbar-nav li a {
   font-size: 12.5px;
   font-weight: 600;
   color: #00477d;
   text-transform: uppercase;
-  padding: 8px 0;
+}
+
+.header .navbar .navbar-nav li a:hover,
+.header .navbar .navbar-nav li a:active,
+.header .navbar .navbar-nav li a:focus {
+  color: #f28b00;
+  background-color: transparent;
 }
 
 @media only screen and (min-width: 1500px) {
@@ -94,7 +119,7 @@ textarea {
   .header .navbar .navbar-nav {
     width: 70%;
   } 
-  .header .navbar .navbar-nav>li>a {
+  .header .navbar .navbar-nav li a {
     font-size: 14px;
   }
 }
@@ -132,8 +157,11 @@ textarea {
 }
 
 #index .header .navbar .navbar-nav>li>a {
-  font-size: 11px;
   padding: 5px;
+}
+
+#index .header .navbar .navbar-nav li a {
+  font-size: 11px;
 }
 
 @media only screen and (min-width: 990px) {
@@ -143,12 +171,15 @@ textarea {
 
   #index .header .navbar .navbar-nav>li>a {
     padding: 8px;
+  }
+
+  #index .header .navbar .navbar-nav li a {
     font-size: 13px;
   }
 }
 
 @media only screen and (min-width: 1175px) {
-  #index .header .navbar .navbar-nav>li>a {
+  #index .header .navbar .navbar-nav li a {
     font-size: 16px;
   }
 }
@@ -158,12 +189,16 @@ textarea {
     margin-right: 34px;
   }
 
-  #index .header .navbar .navbar-nav>li>a {
+  #index .header .navbar .navbar-nav li a {
     font-size: 18px;
   }
 }
 
 /* End Homepage Custom Nav */
+
+.content {
+  min-height: 500px;
+}
 
 /* Footer */
 .footer {
@@ -177,10 +212,6 @@ textarea {
   font-size: 14px;
   line-height: 20px;
   font-weight: 400;
-}
-
-.footer .footer-container .liberty {
-  border-right: 1px solid #959694;
 }
 
 .footer .footer-container .liberty img {
@@ -203,6 +234,13 @@ textarea {
 .footer .footer-container a {
   display: block;
   color: #000000;
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .footer .footer-container .liberty {
+    border-right: 1px solid #959694;
+  }
 }
 
 /* Helper classes */

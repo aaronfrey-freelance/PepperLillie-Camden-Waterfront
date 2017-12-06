@@ -21,8 +21,11 @@
         <li class="dropdown current">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Why Camden Waterfront</a>
           <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
+            <li><a href="#">Location</a></li>
+            <li><a href="#">Tax Incentives</a></li>
+            <li><a href="#">Talent Attraction</a></li>
+            <li><a href="#">Views</a></li>
+            <li><a href="#">Video Tour</a></li>
           </ul>
         </li>
         <li class="dropdown">
