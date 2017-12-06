@@ -122,6 +122,7 @@ textarea {
 }
 
 #index .header .navbar .navbar-nav {
+  width: auto;
   float: none;
   display: inline-block;
   padding: 0;
