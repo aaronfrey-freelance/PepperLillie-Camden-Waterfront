@@ -29,30 +29,9 @@
             <li><a href="#">Video Tour</a></li>
           </ul>
         </li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">The Waterfront Community</a>
-          <ul class="dropdown-menu">
-            <li><a class="btn disabled">The Waterfront Community</a></li>
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-          </ul>
-        </li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Build-to-Suit-Opportunities</a>
-          <ul class="dropdown-menu">
-            <li><a class="btn disabled">Build-to-Suit-Opportunities</a></li>
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-          </ul>
-        </li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">About Liberty Property Trust</a>
-          <ul class="dropdown-menu">
-            <li><a class="btn disabled">About Liberty Property Trust</a></li>
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-          </ul>
-        </li>
+        <li><a href="#">The Waterfront Community</a></li>
+        <li><a href="#">Build-to-Suit-Opportunities</a></li>
+        <li><a href="#">About Liberty Property Trust</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
 
