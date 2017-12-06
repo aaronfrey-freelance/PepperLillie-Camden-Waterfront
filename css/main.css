@@ -180,6 +180,10 @@ textarea {
 }
 
 .footer .footer-container .liberty {
+  border-right: 1px solid #959694;
+}
+
+.footer .footer-container .liberty img {
   max-width: 127px;
   margin-bottom: 13px;
 }

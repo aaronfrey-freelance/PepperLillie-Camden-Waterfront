@@ -2,8 +2,8 @@
 
 	<div class="footer-container clearfix">
 
-		<div class="col-md-3 col-sm-12">
-			<img src="img/liberty.svg" class="liberty img-responsive">
+		<div class="col-md-3 col-sm-12 liberty">
+			<img src="img/liberty.svg" class="img-responsive">
 			<span class="copywrite">&copy; Copyright <?php echo date('Y'); ?>. All rights reserved.</span>
 		</div>
 
