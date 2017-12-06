@@ -28,10 +28,12 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <p>Hello world! This is HTML5 Boilerplate.</p>
+          
         </div>
       </div>
     </div>
+
+    <?php include 'partials/footer.php'; ?>
 
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
     <!-- jQuery -->

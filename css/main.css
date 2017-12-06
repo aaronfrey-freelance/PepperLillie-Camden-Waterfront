@@ -53,7 +53,6 @@ textarea {
 .header .navbar {
   margin: 0;
   height: 200px;
-  border-bottom: 1px solid;
 }
 
 .header .navbar .navbar-header {
@@ -165,6 +164,42 @@ textarea {
 }
 
 /* End Homepage Custom Nav */
+
+/* Footer */
+.footer {
+  background-color: #d2d3d1;
+  padding: 50px 0;
+}
+
+.footer .footer-container {
+  max-width: 1018px;
+  margin: 0 auto;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.footer .footer-container .liberty {
+  max-width: 127px;
+  margin-bottom: 13px;
+}
+
+.footer .footer-container .copywrite {
+  font-size: 12px;
+  line-height: 24px;
+  color: #666666;
+}
+
+.footer .footer-container .title {
+  font-weight: 700;
+  color: #0c3c61;
+  padding-top: 20px;
+}
+
+.footer .footer-container a {
+  display: block;
+  color: #000000;
+}
 
 /* Helper classes */
 
