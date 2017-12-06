@@ -53,6 +53,8 @@ textarea {
 .header .navbar {
   margin: 0;
   height: 200px;
+  position: relative;
+  z-index: 99999;
 }
 
 .header .navbar .navbar-header .navbar-toggle {
