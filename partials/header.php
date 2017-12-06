@@ -22,7 +22,7 @@
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Why Camden Waterfront</a>
           <ul class="dropdown-menu">
             <li><a class="btn disabled">Why Camden Waterfront</a></li>
-            <li><a href="#">Location</a></li>
+            <li><a href="location">Location</a></li>
             <li><a href="#">Tax Incentives</a></li>
             <li><a href="#">Talent Attraction</a></li>
             <li><a href="#">Views</a></li>
