@@ -89,7 +89,7 @@ h2 {
   margin: 0;
   height: 80px;
   position: relative;
-  z-index: 99999;
+  z-index: 1000;
   border: none;
 }
 
@@ -159,6 +159,11 @@ h2 {
 }
 
 /* Homepage Custom Nav */
+
+#index .header {
+  position: absolute;
+  width: 100%;
+}
 
 #index .header .navbar {
   text-align: center;
@@ -269,6 +274,7 @@ h2 {
 
 #index .home-banner .video_tour {
   position: absolute;
+  z-index: 1001;
   left: 0;
   top: 25px;
 }
@@ -376,6 +382,9 @@ h2 {
     text-align: left;
     max-width: 800px;
   }
+  #index .header {
+    position: relative;
+  }
   #index .home-banner .video_tour {
     left: auto;
     right: 85px;
@@ -385,6 +394,7 @@ h2 {
     bottom: 35px;
     font-size: 90px;
     line-height: 90px;
+    padding: 0 25px;
   }
 }
 
