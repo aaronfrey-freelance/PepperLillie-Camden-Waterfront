@@ -12,7 +12,7 @@
     <?php include 'partials/header.php'; ?>
 
     <div class="home-banner">
-      <a href="#" class="btn btn-primary video_tour">Video Tour <img src="img/play_button.png"></a>
+      <a href="#" class="btn btn-primary video_tour">Video Tour</a>
       <img src="img/home/banner.jpg" class="img-responsive">
       <span>The Camden Waterfront</span>
     </div>
