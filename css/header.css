@@ -35,6 +35,10 @@
   padding: 0;
 }
 
+.header .navbar .navbar-collapse .mobile-brand {
+  display: none;
+}
+
 .header .navbar .navbar-collapse .navbar-nav {
   margin: 0;
   background-color: #0c3c61;
@@ -91,6 +95,7 @@
 }
 
 #index .header .navbar .navbar-collapse .mobile-brand {
+  display: block;
   background-color: #ffffff;
   height: 80px;
   padding: 27px 20px 0;
@@ -172,6 +177,10 @@
   #index .header .navbar .navbar-collapse {
     position: relative;
     top: 50%;
+  }
+
+  #index .header .navbar .navbar-collapse .mobile-brand {
+    display: none;
   }
 
   #index .header .navbar .navbar-collapse .navbar-nav {

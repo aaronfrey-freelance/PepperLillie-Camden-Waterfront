@@ -17,7 +17,7 @@
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="navbar-collapse-primary">
-      <div class="mobile-brand visible-xs">
+      <div class="mobile-brand">
         <img src="img/logo.png" class="img-responsive">
       </div>
       <ul class="nav navbar-nav">
