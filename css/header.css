@@ -169,35 +169,28 @@
     text-align: center;
     padding: 20px 0;
   }
-  /* Homepage Custom Nav */
   #index .header {
     position: relative;
   }
-
   #index .header .navbar .navbar-collapse {
     position: relative;
     top: 50%;
   }
-
   #index .header .navbar .navbar-collapse .mobile-brand {
     display: none;
   }
-
   #index .header .navbar .navbar-collapse .navbar-nav {
     width: auto;
     float: none;
     display: inline-block;
     padding: 0;
   }
-
   #index .header .navbar .navbar-collapse .navbar-nav>li {
     margin-right: 10px;
   }
-
   #index .header .navbar .navbar-collapse .navbar-nav>li>a {
     padding: 5px;
   }
-
   #index .header .navbar .navbar-collapse .navbar-nav li a {
     font-size: 11px;
   }
