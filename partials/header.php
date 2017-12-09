@@ -17,6 +17,9 @@
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="navbar-collapse-primary">
+      <div class="mobile-brand visible-xs">
+        <img src="img/logo.png" class="img-responsive">
+      </div>
       <ul class="nav navbar-nav">
         <li class="dropdown current">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Why Camden Waterfront</a>

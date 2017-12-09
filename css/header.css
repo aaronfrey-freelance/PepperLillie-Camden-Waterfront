@@ -84,6 +84,22 @@
   display: none;
 }
 
+#index .header .navbar .navbar-collapse {
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+
+#index .header .navbar .navbar-collapse .mobile-brand {
+  background-color: #ffffff;
+  height: 80px;
+  padding: 27px 20px 0;
+}
+
+#index .header .navbar .navbar-collapse .mobile-brand img {
+  width: 298px;
+}
+
 @media (min-width: 768px) {
   .header .navbar {
     height: 200px;
@@ -152,6 +168,12 @@
   #index .header {
     position: relative;
   }
+
+  #index .header .navbar .navbar-collapse {
+    position: relative;
+    top: 50%;
+  }
+
   #index .header .navbar .navbar-collapse .navbar-nav {
     width: auto;
     float: none;
