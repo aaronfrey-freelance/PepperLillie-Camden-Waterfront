@@ -129,6 +129,17 @@ h2 {
   margin-top: 10px;
 }
 
+#index .pan-container {
+  position: relative;
+  height: 216px;
+}
+
+#index .pan-container .pan-image {
+  height: 216px;
+  background: url('../img/home/slider/slider.jpg');
+  background-size: auto 100%;
+}
+
 @media (min-width: 768px) {
   .btn-primary {
     font-size: 15px;
@@ -160,7 +171,14 @@ h2 {
     line-height: 34px;
     margin-top: 20px;
   }
+  #index .pan-container {
+    height: 620px;
+  }
+  #index .pan-container .pan-image {
+    height: 620px;
+  }
 }
+
 
 /* Helper classes */
 

@@ -18,10 +18,12 @@ function getWindowWidth() {
 
 (function() {
 
+  // Update the window width variable on resize
   $(window).on("load resize", function(e) {
     getWindowWidth();
   });
 
+  // Show the dropdown menu on hover
   $('ul.nav li.dropdown').hover(function() {
     if (windowWidth >= 768) {
       $(this).find('.dropdown-menu').stop(true, true).fadeIn(500);
@@ -29,5 +31,21 @@ function getWindowWidth() {
   }, function() {
     $(this).find('.dropdown-menu').stop(true, true).fadeOut(500);
   });
+
+  // Homepage Image Pan
+
+  function animateLeft() {
+    $('.pan-image').animate({
+      'background-position-x': '100%'
+    }, 20000, 'swing', animateRight);
+  }
+
+  function animateRight() {
+    $('.pan-image').animate({
+      'background-position-x': '0%'
+    }, 20000, 'swing', animateLeft);
+  }
+
+  animateLeft();
 
 }());

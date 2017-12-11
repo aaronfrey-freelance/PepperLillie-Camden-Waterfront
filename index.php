@@ -13,7 +13,9 @@
 
     <div class="home-banner">
       <a href="#" class="btn btn-primary video_tour">Video Tour</a>
-      <img src="img/home/banner.jpg" class="img-responsive">
+      <div class="pan-container">
+        <div class="pan-image"></div>
+      </div>
       <span>The Camden Waterfront</span>
     </div>
 
