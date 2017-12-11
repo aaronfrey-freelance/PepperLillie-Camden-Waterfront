@@ -67,14 +67,23 @@
 .header .navbar .navbar-collapse .navbar-nav li a:hover,
 .header .navbar .navbar-collapse .navbar-nav li a:active,
 .header .navbar .navbar-collapse .navbar-nav li a:focus,
-.header .navbar .navbar-collapse .navbar-nav li a.disabled {
+.header .navbar .navbar-collapse .navbar-nav li a.disabled,
+.nav .open>a,
+.nav .open>a:focus,
+.nav .open>a:hover {
   color: #ffffff;
   background-color: transparent;
   opacity: 1;
 }
 
+.header .navbar .navbar-collapse .navbar-nav .dropdown-menu {
+  padding-bottom: 20px;
+}
+
 .header .navbar .navbar-collapse .navbar-nav .dropdown-menu a {
-  padding: 5px 0;
+  padding: 5px;
+  line-height: 1.2;
+  text-align: center;
 }
 
 .header .navbar .navbar-collapse .navbar-nav .dropdown-menu a.disabled {

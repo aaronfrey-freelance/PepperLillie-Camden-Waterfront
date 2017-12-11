@@ -1,17 +1,5 @@
-/* Base styles: opinionated defaults */
-
 body {
   font-family: 'Open Sans', sans-serif;
-}
-
-::-moz-selection {
-  background: #b3d4fc;
-  text-shadow: none;
-}
-
-::selection {
-  background: #b3d4fc;
-  text-shadow: none;
 }
 
 a:hover,
@@ -19,12 +7,6 @@ a:active,
 a:focus {
   text-decoration: none;
 }
-
-textarea {
-  resize: vertical;
-}
-
-/* Custom styles */
 
 h1,
 h2 {
@@ -47,14 +29,6 @@ h2 {
 
 p {
   margin: 0 0 20px;
-  font-size: 12.22px;
-  line-height: 17.11px;
-}
-
-.btn-primary:hover,
-.btn-primary:active,
-.btn-primary:focus {
-  background-color: #D8873A;
 }
 
 .btn-primary {
@@ -65,6 +39,16 @@ p {
   border: none;
   padding: 0 25px 0 11px;
   background: url('../img/play_button_mobile.png') no-repeat right 11px center #f1a053;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+  background-color: #D8873A;
+}
+
+.banner {
+  border-bottom: 6px solid #f1a053;
 }
 
 .content {
@@ -85,10 +69,6 @@ p {
   margin-top: 5px;
 }
 
-.banner {
-  border-bottom: 6px solid #f1a053;
-}
-
 /* Homepage */
 
 #index .home-banner {
@@ -99,6 +79,18 @@ p {
   position: absolute;
   left: 0;
   top: 25px;
+  z-index: 1;
+}
+
+#index .home-banner .pan-container {
+  position: relative;
+  height: 216px;
+}
+
+#index .home-banner .pan-container .pan-image {
+  height: 216px;
+  background: url('../img/home/slider/slider.jpg');
+  background-size: auto 100%;
 }
 
 #index .home-banner span {
@@ -115,13 +107,13 @@ p {
 #index .content {
   background: url('../img/home/orange_border.png') repeat-x;
   background-position: top 13px center;
-  padding: 40px 35px 25px;
+  padding: 30px 35px 25px;
 }
 
 #index .content h1 {
   font-size: 20px;
   line-height: 42px;
-  font-weight: 400;
+  font-weight: 600;
   text-transform: none;
   margin: 0;
 }
@@ -133,18 +125,7 @@ p {
   margin-top: 10px;
 }
 
-#index .pan-container {
-  position: relative;
-  height: 216px;
-}
-
-#index .pan-container .pan-image {
-  height: 216px;
-  background: url('../img/home/slider/slider.jpg');
-  background-size: auto 100%;
-}
-
-/* About Page */
+/* About */
 
 #about-liberty-property-trust .img-container {
   background-color: #f1a053;
@@ -272,10 +253,17 @@ p {
   .content li {
     margin-top: 10px;
   }
+  /* Homepage */
   #index .home-banner .video_tour {
     left: auto;
     right: 85px;
     top: 0;
+  }
+  #index .home-banner .pan-container {
+    height: 620px;
+  }
+  #index .home-banner .pan-container .pan-image {
+    height: 620px;
   }
   #index .home-banner span {
     bottom: 35px;
@@ -296,12 +284,7 @@ p {
     line-height: 34px;
     margin-top: 20px;
   }
-  #index .pan-container {
-    height: 620px;
-  }
-  #index .pan-container .pan-image {
-    height: 620px;
-  }
+  /* About */
   #about-liberty-property-trust .img-container div {
     min-height: 650px;
   }
@@ -362,8 +345,6 @@ p {
     line-height: 32.61px;
   }
 }
-
-
 
 /* Helper classes */
 
