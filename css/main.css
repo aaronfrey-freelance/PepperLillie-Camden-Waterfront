@@ -391,6 +391,32 @@ p {
     font-size: 26.09px;
     line-height: 32.61px;
   }
+  /* Talent */
+  #talent-attraction .banner {
+    min-height: 555px;
+  }
+  #talent-attraction .banner h1 {
+    margin: 75px 0 30px;
+  }
+  #talent-attraction .banner h2 {
+    margin-bottom: 30px; 
+  }
+  #talent-attraction .rating {
+    font-size: 35.13px;
+    line-height: 42.16px;
+  }
+  #talent-attraction .rating .rank {
+    font-size: 170px;
+    //padding-bottom: 3px;
+  }
+  #talent-attraction .rating .rank sup {
+    font-size: 100px;
+    top: -55px;
+  }
+  #talent-attraction .source {
+    font-size: 20px;
+    float: right;
+  }
 }
 
 /* Helper classes */
