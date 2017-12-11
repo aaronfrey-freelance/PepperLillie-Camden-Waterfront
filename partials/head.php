@@ -10,7 +10,7 @@
   <!-- Place favicon.ico in the root directory -->
 
   <!-- Fonts -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700,700i" rel="stylesheet">
   <!-- Normalize -->
   <link rel="stylesheet" href="css/normalize.css">
   <!-- Bootstrap -->
