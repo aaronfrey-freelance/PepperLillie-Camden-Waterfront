@@ -35,13 +35,14 @@ function getWindowWidth() {
   });
 
   // Homepage Image Pan
-
   function animateLeft() {
     $('.pan-image').animate({
       'background-position-x': '100%'
     }, 30000, 'swing');
   }
-
   animateLeft();
+
+  // Sliders
+  $('.slider').bxSlider();
 
 }());
