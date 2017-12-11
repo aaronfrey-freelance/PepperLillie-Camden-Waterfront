@@ -140,6 +140,33 @@ h2 {
   background-size: auto 100%;
 }
 
+/* About Page */
+.img-container {
+  background-color: #f1a053;
+}
+
+.img-container div {
+  float: left;
+  width: 33.333333%;
+  min-height: 111px;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.img-container div:first-child {
+  width: 33%;
+  margin-right: 0.333333%;
+}
+
+.img-container div:last-child {
+  width: 33%;
+  margin-left: 0.333333%;
+}
+
 @media (min-width: 768px) {
   .btn-primary {
     font-size: 15px;
@@ -176,6 +203,17 @@ h2 {
   }
   #index .pan-container .pan-image {
     height: 620px;
+  }
+  .img-container div {
+    min-height: 650px;
+  }
+  .img-container div:first-child {
+    width: 32%;
+    margin-right: 1.333333%;
+  }
+  .img-container div:last-child {
+    width: 32%;
+    margin-left: 1.333333%;
   }
 }
 

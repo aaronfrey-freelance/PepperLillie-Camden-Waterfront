@@ -34,7 +34,7 @@
         </li>
         <li><a href="#">The Waterfront Community</a></li>
         <li><a href="#">Build-to-Suit-Opportunities</a></li>
-        <li><a href="#">About Liberty Property Trust</a></li>
+        <li><a href="about.php">About Liberty Property Trust</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
 
