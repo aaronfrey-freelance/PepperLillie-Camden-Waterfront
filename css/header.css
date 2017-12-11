@@ -7,6 +7,11 @@
   text-align: center;
 }
 
+.header .navbar .navbar-header {
+  position: relative;
+  z-index: 99999;
+}
+
 .header .navbar .navbar-header .navbar-toggle {
   border: none;
   margin: 24px 10px 24px 0;
