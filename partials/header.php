@@ -22,19 +22,19 @@
       </div>
       <ul class="nav navbar-nav">
         <li class="dropdown current">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Why Camden Waterfront</a>
+          <a class="dropdown-toggle" data-toggle="dropdown" role="button">Why Camden Waterfront</a>
           <ul class="dropdown-menu">
             <li><a class="btn disabled">Why Camden Waterfront</a></li>
             <li><a href="location.php">Location</a></li>
-            <li><a href="#">Tax Incentives</a></li>
-            <li><a href="#">Talent Attraction</a></li>
-            <li><a href="#">Views</a></li>
+            <li><a href="tax-incentives.php">Tax Incentives</a></li>
+            <li><a href="talent-attraction.php">Talent Attraction</a></li>
+            <li><a href="views.php">Views</a></li>
             <li><a href="#">Video Tour</a></li>
           </ul>
         </li>
-        <li><a href="#">The Waterfront Community</a></li>
-        <li><a href="#">Build-to-Suit-Opportunities</a></li>
-        <li><a href="about.php">About Liberty Property Trust</a></li>
+        <li><a href="the-waterfront-community.php">The Waterfront Community</a></li>
+        <li><a href="build-to-suit-opportunities.php">Build-to-Suit-Opportunities</a></li>
+        <li><a href="about-liberty-property-trust.php">About Liberty Property Trust</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
 

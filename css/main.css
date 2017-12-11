@@ -87,7 +87,6 @@ p {
   border-bottom: 6px solid #f1a053;
 }
 
-
 /* Homepage */
 
 #index .home-banner {
@@ -144,11 +143,11 @@ p {
 }
 
 /* About Page */
-#about .img-container {
+#about-liberty-property-trust .img-container {
   background-color: #f1a053;
 }
 
-#about .img-container div {
+#about-liberty-property-trust .img-container div {
   float: left;
   width: 33.333333%;
   min-height: 111px;
@@ -160,45 +159,45 @@ p {
   background-size: cover;
 }
 
-#about .img-container div:first-child {
+#about-liberty-property-trust .img-container div:first-child {
   width: 33%;
   margin-right: 0.333333%;
 }
 
-#about .img-container div:last-child {
+#about-liberty-property-trust .img-container div:last-child {
   width: 33%;
   margin-left: 0.333333%;
 }
 
-#about .content {
+#about-liberty-property-trust .content {
   font-size: 15px;
   line-height: 23px;
   color: #000000;
   padding: 0 15px;
 }
 
-#about .content h1 {
+#about-liberty-property-trust .content h1 {
   font-size: 24px;
   line-height: 28px;
   margin-bottom: 15px;
 }
 
-#about .content h2 {
+#about-liberty-property-trust .content h2 {
   font-weight: 700;
   font-size: 15px;
   line-height: 20px;
   margin-bottom: 10px;
 }
 
-#about .content ul {
+#about-liberty-property-trust .content ul {
   padding-left: 25px;
 }
 
-#about .content li {
+#about-liberty-property-trust .content li {
   line-height: 22px;
 }
 
-#about .quote-container {
+#about-liberty-property-trust .quote-container {
   min-height: 363px;
   background-image: url('../img/about/quote.png');
   background-repeat: no-repeat;
@@ -213,15 +212,15 @@ p {
   line-height: 20.89px;
 }
 
-#about .quote-container .container {
+#about-liberty-property-trust .quote-container .container {
   padding: 40px 50px;
 }
 
-#about .quote-container .quote {
+#about-liberty-property-trust .quote-container .quote {
   position: relative;
 }
 
-#about .quote-container .quote::before {
+#about-liberty-property-trust .quote-container .quote::before {
   position: absolute;
   font-size: 37.99px;
   content: "“";
@@ -229,21 +228,21 @@ p {
   left: -22px;
 }
 
-#about .quote-container .quote span {
+#about-liberty-property-trust .quote-container .quote span {
   font-size: 37.99px;
   position: absolute;
   bottom: -11px;
   padding-left: 5px;
 }
 
-#about .quote-container .quote-person {
+#about-liberty-property-trust .quote-container .quote-person {
   font-size: 12.39px;
   font-weight: 400;
   line-height: 15.49px;
   font-style: italic;
 }
 
-#about .quote-container .quote-person .title {
+#about-liberty-property-trust .quote-container .quote-person .title {
   font-weight: 700;
 }
 
@@ -284,38 +283,38 @@ p {
   #index .pan-container .pan-image {
     height: 620px;
   }
-  #about .img-container div {
+  #about-liberty-property-trust .img-container div {
     min-height: 650px;
   }
-  #about .img-container div:first-child {
+  #about-liberty-property-trust .img-container div:first-child {
     width: 32%;
     margin-right: 1.333333%;
   }
-  #about .img-container div:last-child {
+  #about-liberty-property-trust .img-container div:last-child {
     width: 32%;
     margin-left: 1.333333%;
   }
-  #about .content {
+  #about-liberty-property-trust .content {
     font-size: 20px;
     line-height: 28px;
     padding: 50px 15px;
   }
-  #about .content li {
+  #about-liberty-property-trust .content li {
     line-height: 30px;
   }
-  #about .content h1 {
+  #about-liberty-property-trust .content h1 {
     font-size: 32px;
     margin-bottom: 30px;
   }
-  #about .content h2 {
+  #about-liberty-property-trust .content h2 {
     font-size: 23px;
     margin-bottom: 15px;
   }
-  #about .content .border-right {
+  #about-liberty-property-trust .content .border-right {
     position: relative;
     padding-right: 60px;
   }
-  #about .content .border-right::after {
+  #about-liberty-property-trust .content .border-right::after {
     content: "";
     width: 1px;
     background-color: #6c6c6c;
@@ -324,22 +323,22 @@ p {
     right: 30px;
     bottom: 15px;
   }
-  #about .quote-container {
+  #about-liberty-property-trust .quote-container {
     min-height: 750px;
     font-size: 32px;
     line-height: 44px;
     padding-top: 50px;
   }
-  #about .quote-container .quote::before {
+  #about-liberty-property-trust .quote-container .quote::before {
     font-size: 80px;
     top: 15px;
     left: -44px;
   }
-  #about .quote-container .quote span {
+  #about-liberty-property-trust .quote-container .quote span {
     font-size: 80px;
     bottom: -20px;
   }
-  #about .quote-container .quote-person {
+  #about-liberty-property-trust .quote-container .quote-person {
     font-size: 26.09px;
     line-height: 32.61px;
   }
