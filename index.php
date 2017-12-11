@@ -12,7 +12,7 @@
     <?php include 'partials/header.php'; ?>
 
     <div class="home-banner">
-      <a href="#" class="btn btn-primary video_tour">Video Tour</a>
+      <a href="https://www.youtube.com/watch?v=DtBocfjf1l8&app=desktop" target="_blank" class="btn btn-primary video_tour">Video Tour</a>
       <div class="pan-container">
         <div class="pan-image"></div>
       </div>

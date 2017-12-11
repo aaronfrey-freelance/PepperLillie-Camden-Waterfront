@@ -29,7 +29,7 @@
             <li><a href="tax-incentives.php">Tax Incentives</a></li>
             <li><a href="talent-attraction.php">Talent Attraction</a></li>
             <li><a href="views.php">Views</a></li>
-            <li><a href="#">Video Tour</a></li>
+            <li><a href="https://www.youtube.com/watch?v=DtBocfjf1l8&app=desktop" target="_blank">Video Tour</a></li>
           </ul>
         </li>
         <li><a href="the-waterfront-community.php">The Waterfront Community</a></li>

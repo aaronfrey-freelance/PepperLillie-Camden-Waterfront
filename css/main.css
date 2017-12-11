@@ -48,6 +48,7 @@ p {
 }
 
 .banner {
+  position: relative;
   border-bottom: 6px solid #f1a053;
 }
 
@@ -235,6 +236,47 @@ p {
   padding-bottom: 100px;
 }
 
+/* Talent */
+#talent-attraction .banner {
+  min-height: 192px;
+}
+
+#talent-attraction .banner h1 {
+  margin: 15px 0 10px;
+}
+
+#talent-attraction .banner h2 {
+  margin: 5px 0 10px;
+  line-height: 19px;
+}
+
+#talent-attraction .rating {
+  font-size: 8.71px;
+  line-height: 10.45px;
+  color: #246b97;
+  font-weight: 600;
+  font-style: italic;
+  text-align: center;
+}
+
+#talent-attraction .rating .rank {
+  font-size: 42.15px;
+  line-height: 1;
+  color: #f1a053;
+  font-style: normal;
+  padding-bottom: 3px;
+}
+
+#talent-attraction .rating .rank sup {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+#talent-attraction .source {
+  font-size: 10px;
+  font-style: italic;
+}
+
 @media (min-width: 768px) {
   h1 {
     font-size: 32px;
@@ -359,6 +401,15 @@ p {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+}
+
+.cover {
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .clearfix:before,
