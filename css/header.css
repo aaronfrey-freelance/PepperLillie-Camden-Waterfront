@@ -77,6 +77,10 @@
   padding: 5px 0;
 }
 
+.header .navbar .navbar-collapse .navbar-nav .dropdown-menu a.disabled {
+  display: none;
+}
+
 /* Homepage Overrides */
 
 #index .header {
@@ -168,6 +172,9 @@
     width: 100%;
     text-align: center;
     padding: 20px 0;
+  }
+  .header .navbar .navbar-collapse .navbar-nav .dropdown-menu a.disabled {
+    display: block;
   }
   #index .header {
     position: relative;

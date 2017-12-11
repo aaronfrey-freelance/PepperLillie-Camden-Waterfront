@@ -37,13 +37,13 @@ function getWindowWidth() {
   function animateLeft() {
     $('.pan-image').animate({
       'background-position-x': '100%'
-    }, 20000, 'swing', animateRight);
+    }, 30000, 'swing', animateRight);
   }
 
   function animateRight() {
     $('.pan-image').animate({
       'background-position-x': '0%'
-    }, 20000, 'swing', animateLeft);
+    }, 30000, 'swing', animateLeft);
   }
 
   animateLeft();
