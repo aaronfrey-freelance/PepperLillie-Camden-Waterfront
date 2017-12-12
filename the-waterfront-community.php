@@ -54,7 +54,7 @@
                 </tr>
                 <tr>
                   <td class="title">One Water Street</td>
-                  <td>American Water headquarters. Delivery: Fall 2018</td>
+                  <td>American Water headquarters.<br>Delivery: Fall 2018</td>
                 </tr>
                 <tr>
                   <td class="title">One Riverside Drive</td>
@@ -62,11 +62,11 @@
                 </tr>
                 <tr>
                   <td class="title yellow">One Penn Street</td>
-                  <td>180-room Hilton Garden Inn Hotel. Delivery: Spring 2020</td>
+                  <td>180-room Hilton Garden Inn Hotel.<br>Delivery: Spring 2020</td>
                 </tr>
                 <tr>
                   <td class="title grey">11 Cooper Street</td>
-                  <td>156 residential apartments. Delivery: Spring 2019</td>
+                  <td>156 residential apartments.<br>Delivery: Spring 2019</td>
                 </tr>
                 <tr>
                   <td class="title grey">Residential</td>

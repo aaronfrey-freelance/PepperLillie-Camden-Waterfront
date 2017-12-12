@@ -280,15 +280,28 @@ p {
 
 /* Waterfront Community */
 
+#the-waterfront-community .table {
+  border: none;
+  margin-bottom: 0;
+}
+
+#the-waterfront-community .table tr {
+  display: block;
+  border-top: 1px solid #d2d3d1;
+  padding: 15px 0;
+}
+
 #the-waterfront-community .table td {
-  padding: 11px 19px;
-  font-size: 18px;
+  padding: 0 19px;
+  font-size: 15px;
   line-height: 20px;
-  border: 1px solid #adb3b6;
+  border: none;
+  display: block;
+  text-align: center;
 }
 
 #the-waterfront-community .table td.title {
-  padding: 11px 18px;
+  padding: 0 18px;
   color: #246b97;
   font-weight: 700;
 }
@@ -449,6 +462,25 @@ p {
   #talent-attraction .source {
     font-size: 20px;
     float: right;
+  }
+  /* Waterfront Community */
+  #the-waterfront-community .table tr {
+    display: table-row;
+    border-top: none;
+    padding: 0;
+  }
+  #the-waterfront-community .table td {
+    display: table-cell;
+    padding: 11px 19px;
+    font-size: 18px;
+    border: 1px solid #adb3b6;
+    text-align: left;
+  }
+  #the-waterfront-community .table td.title {
+    padding: 11px 18px;
+  }
+  #the-waterfront-community .table td br {
+    display: none;
   }
 }
 
