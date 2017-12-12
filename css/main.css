@@ -281,14 +281,14 @@ p {
 /* Waterfront Community */
 
 #the-waterfront-community .table td {
-  padding: 0 19px;
+  padding: 11px 19px;
   font-size: 18px;
-  line-height: 43px;
+  line-height: 20px;
   border: 1px solid #adb3b6;
 }
 
 #the-waterfront-community .table td.title {
-  padding: 0 18px;
+  padding: 11px 18px;
   color: #246b97;
   font-weight: 700;
 }
