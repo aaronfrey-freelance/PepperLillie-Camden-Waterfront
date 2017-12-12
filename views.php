@@ -7,7 +7,7 @@
     include 'partials/head.php';
   ?>
 
-  <body id="<?php echo basename($_SERVER['PHP_SELF'], ".php"); ?>">
+  <body id="<?php echo $page_name; ?>">
       
     <?php include 'partials/header.php'; ?>
 
@@ -23,7 +23,7 @@
 
           <div class="col-md-offset-1 col-md-10">
             <h1>Views From the Waterfront</h1>
-            <p>The Camden Waterfront is a highly visible location on the Delaware River. Each of the buildings within The Camden Waterfront Masterplan has sweeping panoramic views of the Waterfront Park, the Delaware River, the stunning Philadelphia skyline and the classically elegant Benjamin Franklin Bridge.</p>
+            <p>The Camden Waterfront is a highly visible location on the Delaware River. Each of the buildings within The Camden Waterfront Masterplan has sweeping panoramic views of the Waterfront Park, the Delaware River, the stunning Philadelphia skyline, and the classically elegant Benjamin Franklin Bridge.</p>
             <img src="img/views/night-time.png" class="img-responsive">
           </div>
 
