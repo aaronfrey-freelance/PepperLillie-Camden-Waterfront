@@ -42,7 +42,9 @@
           </div>
 
           <div class="col-md-12">
-            <img src="img/location/map.png" class="img-responsive">
+            <div class="map"> 
+              <img src="img/location/map.jpg" class="img-responsive">
+            </div>
           </div>
 
         </div><!-- .content -->

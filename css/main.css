@@ -398,6 +398,11 @@ p {
   margin-top: 5px;
 }
 
+/* Location */
+#location .map {
+  margin: 0 -15px;
+}
+
 @media (min-width: 768px) {
   h1 {
     font-size: 32px;
@@ -621,6 +626,11 @@ p {
   }
   #the-waterfront-community .slide-info ul li {
     margin-top: 0;
+  }
+  /* Location */
+  #location .map {
+    margin: 0;
+    border: 3px solid #d3d5d7;
   }
 }
 
