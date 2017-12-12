@@ -2,8 +2,8 @@
 <html class="no-js" lang="en">
 
   <?php
-    $page_title = "The Camden Waterfront";
-    $page_description = "The Camden Waterfront Website";
+    $page_title = "About Liberty Property Trust | The Camden Waterfront";
+    $page_description = "For more than four decades, Liberty has been evolving city skylines as a preeminent commercial developer. From the development of its first project in 1972 to today, Liberty continues to build a portfolio of groundbreaking projects.";
     include 'partials/head.php';
   ?>
 

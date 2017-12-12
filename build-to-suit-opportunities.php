@@ -2,8 +2,8 @@
 <html class="no-js" lang="en">
 
   <?php
-    $page_title = "The Camden Waterfront";
-    $page_description = "The Camden Waterfront Website";
+    $page_title = "Build-to-Suit Opportunities | The Camden Waterfront";
+    $page_description = "Defined by progressive architecture and vibrant activity throughout the day, The Camden Waterfront will consist of up to 1.2 million square feet of high-performance office space, a 180-room hotel, apartment living, retail amenities and an expanded and improved public park.";
     include 'partials/head.php';
   ?>
 

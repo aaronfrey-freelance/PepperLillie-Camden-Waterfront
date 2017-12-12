@@ -2,8 +2,8 @@
 <html class="no-js" lang="en">
 
   <?php
-    $page_title = "The Camden Waterfront";
-    $page_description = "The Camden Waterfront Website";
+    $page_title = "The Waterfront Community | The Camden Waterfront";
+    $page_description = "The Camden Waterfront includes 20 acres of waterfront property, up to 1.2 million SF of high performance office space, multiple office build-to-suit options and much more.";
     include 'partials/head.php';
   ?>
 

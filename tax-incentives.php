@@ -2,8 +2,8 @@
 <html class="no-js" lang="en">
 
   <?php
-    $page_title = "The Camden Waterfront";
-    $page_description = "The Camden Waterfront Website";
+    $page_title = "Business Tax Incentive Program | The Camden Waterfront";
+    $page_description = "Grow NJ is a powerful job creation andretention program helping qualified companies succeed in New Jersey.  Within the Grow NJ Program, Camden is designated as a Garden State Growth Zone (GSGZ), which means The Camden Waterfront projects can qualify for the highest levels of economic tax incentives.";
     include 'partials/head.php';
   ?>
 

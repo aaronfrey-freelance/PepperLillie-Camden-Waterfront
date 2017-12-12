@@ -2,8 +2,8 @@
 <html class="no-js" lang="en">
 
   <?php
-    $page_title = "The Camden Waterfront";
-    $page_description = "The Camden Waterfront Website";
+    $page_title = "Views from the Waterfront | The Camden Waterfront";
+    $page_description = "The Camden Waterfront is a highly visible location on the Delaware River. Each of the buildings within The Camden Waterfront Masterplan has sweeping panoramic views of the Waterfront Park, the Delaware River, the stunning Philadelphia skyline and the classically elegant Benjamin Franklin Bridge.";
     include 'partials/head.php';
   ?>
 

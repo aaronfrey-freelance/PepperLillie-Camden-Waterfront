@@ -2,8 +2,8 @@
 <html class="no-js" lang="en">
 
   <?php
-    $page_title = "The Camden Waterfront";
-    $page_description = "The Camden Waterfront Website";
+    $page_title = "The Camden Waterfront | The Future on the Horizon";
+    $page_description = "The Camden Waterfront is an entirely new mixed-use urban neighborhood on the banks of the Delaware River with dramatic views of the stunning Philadelphia skyline and Benjamin Franklin Bridge.";
     include 'partials/head.php';
   ?>
 

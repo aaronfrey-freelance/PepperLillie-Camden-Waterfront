@@ -2,8 +2,8 @@
 <html class="no-js" lang="en">
 
   <?php
-    $page_title = "The Camden Waterfront";
-    $page_description = "The Camden Waterfront Website";
+    $page_title = "Talent Attraction | The Camden Waterfront";
+    $page_description = "The Camden Waterfront is in close proximity to the talented and well-educated workforce that exists in Philadelphia and South Jersey.  Approximately 36 percent of Philadelphia area residents hold bachelor’s degrees or higher, compared with the national average of 29 percent.";
     include 'partials/head.php';
   ?>
 

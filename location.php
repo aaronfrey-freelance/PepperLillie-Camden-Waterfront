@@ -2,8 +2,8 @@
 <html class="no-js" lang="en">
 
   <?php
-    $page_title = "The Camden Waterfront | Location";
-    $page_description = "The Camden Waterfront Website";
+    $page_title = "Location | The Camden Waterfront";
+    $page_description = "Strategically located with superior access to the waterfront, The Camden Waterfront has central access to major highways, roadways, and mass transit systems. This includes convenient access to the Philadelphia International Airport and 30th Street Station (Amtrak).";
     include 'partials/head.php';
   ?>
 
