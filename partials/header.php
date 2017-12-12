@@ -23,7 +23,7 @@
         </a>
       </div>
       <ul class="nav navbar-nav">
-        <li class="dropdown current">
+        <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" role="button">Why Camden Waterfront</a>
           <ul class="dropdown-menu">
             <li><a class="btn disabled">Why Camden Waterfront</a></li>
@@ -34,9 +34,15 @@
             <li><a href="https://www.youtube.com/watch?v=DtBocfjf1l8&app=desktop" target="_blank">Video Tour</a></li>
           </ul>
         </li>
-        <li><a href="the-waterfront-community">The Waterfront Community</a></li>
-        <li><a href="build-to-suit-opportunities">Build-to-Suit-Opportunities</a></li>
-        <li><a href="about-liberty-property-trust">About Liberty Property Trust</a></li>
+        <li class="<?php echo $page_name === 'the-waterfront-community' ? 'active' : ''; ?>">
+          <a href="the-waterfront-community">The Waterfront Community</a>
+        </li>
+        <li class="<?php echo $page_name === 'build-to-suit-opportunities' ? 'active' : ''; ?>">
+          <a href="build-to-suit-opportunities">Build-to-Suit-Opportunities</a>
+        </li>
+        <li class="<?php echo $page_name === 'about-liberty-property-trust' ? 'active' : ''; ?>">
+          <a href="about-liberty-property-trust">About Liberty Property Trust</a>
+        </li>
       </ul>
     </div><!-- /.navbar-collapse -->
 

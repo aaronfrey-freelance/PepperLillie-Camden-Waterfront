@@ -22,3 +22,5 @@
   <link rel="stylesheet" href="css/footer.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
+
+<?php $page_name = basename($_SERVER['PHP_SELF'], ".php"); ?>

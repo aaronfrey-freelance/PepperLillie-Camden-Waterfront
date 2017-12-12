@@ -7,9 +7,11 @@
     include 'partials/head.php';
   ?>
 
-  <body id="<?php echo basename($_SERVER['PHP_SELF'], ".php"); ?>">
+  <body id="<?php echo $page_name; ?>">
       
     <?php include 'partials/header.php'; ?>
+
+
 
     <div class="container content">
       <div class="row">
