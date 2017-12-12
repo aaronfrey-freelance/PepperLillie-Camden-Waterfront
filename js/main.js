@@ -21,6 +21,7 @@ function getWindowWidth() {
   // Update the window width variable on resize
   $(window).on("load resize", function(e) {
     getWindowWidth();
+    fitPanToWindow();
   });
 
   // Show the dropdown menu on hover
@@ -38,9 +39,17 @@ function getWindowWidth() {
   function animateLeft() {
     $('.pan-image').animate({
       'background-position-x': '100%'
-    }, 30000, 'swing');
+    }, 30000, 'linear');
   }
   animateLeft();
+
+  function fitPanToWindow() {
+    // Get the window height
+    var windowHeight = $(window).height();
+    var headerHeight = $('.header').height();
+    // Set the height of the pan container
+    $('.pan-container, .pan-image').height(windowHeight - headerHeight);
+  }
 
   // Sliders
   $('.slider').bxSlider({
