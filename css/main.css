@@ -424,6 +424,62 @@ p {
   margin: 0 -15px;
 }
 
+/* Tax Incentives */
+#tax-incentives .content {
+  padding: 0;
+}
+#tax-incentives .content h1 {
+  margin-bottom: 0;
+  line-height: 28px;
+}
+#tax-incentives .content h2 {
+  margin-top: 15px;
+}
+#tax-incentives .content p {
+  font-size: 12px;
+  line-height: 14px;
+}
+#tax-incentives .content .grey-bg {
+  background-color: #f0f0ef;
+  padding: 0 30px;
+}
+#tax-incentives .content .grey-bg img {
+  padding-bottom: 30px;
+}
+#tax-incentives .content .call-out {
+  padding: 20px 25px 30px 70px;
+  margin: 0 -15px 25px;
+  -webkit-box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.1);
+  -moz-box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.1);
+  box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.1);
+}
+#tax-incentives .content .call-out h1 {
+  font-size: 18.57px;
+  line-height: 16.25px;
+  margin: 12px 0;
+}
+#tax-incentives .content .call-out p {
+  margin: 0;
+  font-size: 13.93px;
+  line-height: 23.21px;
+  color: #003764;
+}
+#tax-incentives .content .call-out p span {
+  font-weight: 700;
+}
+#tax-incentives .content ul {
+  padding: 0 25px 0 55px;
+  list-style: square;
+}
+#tax-incentives .content ul li {
+  font-size: 12px;
+  line-height: 17px;
+}
+#tax-incentives .infographic {
+  margin: 0 auto;
+  padding: 32px 23px;
+}
+
 @media (min-width: 768px) {
   h1 {
     font-size: 32px;
