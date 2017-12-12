@@ -278,6 +278,41 @@ p {
   font-style: italic;
 }
 
+/* Built to Suit */
+
+#build-to-suit-opportunities .custom-slide img {
+  border-bottom: 3px solid #f1a053;
+}
+
+#build-to-suit-opportunities .custom-slide .slide-info {
+  background-color: #397aa1;
+}
+
+#build-to-suit-opportunities .custom-slide .slide-info .slide-text {
+  text-align: center;
+  padding: 11px 25px 20px;
+}
+
+#build-to-suit-opportunities .custom-slide .slide-info .slide-text .location {
+  font-size: 15px;
+  line-height: 28px;
+  color: #f1a053;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+#build-to-suit-opportunities .custom-slide .slide-info .slide-text p {
+  margin: 0 0 7px;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff;
+}
+
+#build-to-suit-opportunities .custom-slide .slide-info .slide-text br {
+  display: none;
+}
+
 /* Waterfront Community */
 
 #the-waterfront-community .content {
@@ -327,7 +362,7 @@ p {
   padding: 20px 40px 15px 30px;
 }
 
-#the-waterfront-community .grey-box ul {
+#the-waterfront-community ul {
   list-style: square;
 }
 
@@ -335,6 +370,32 @@ p {
   font-size: 17.36px;
   line-height: 21.93px;
   color: #003764;
+}
+
+#the-waterfront-community .slide-info {
+  background-color: #003764;
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: left;
+  padding: 20px 45px 10px;
+}
+
+#the-waterfront-community .slide-info .location {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #f1a053;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+#the-waterfront-community .slide-info ul {
+  line-height: 14px;
+  padding-left: 15px;
+}
+
+#the-waterfront-community .slide-info ul li {
+  margin-top: 5px;
 }
 
 @media (min-width: 768px) {
@@ -479,6 +540,33 @@ p {
     font-size: 20px;
     float: right;
   }
+  /* Built to Suit */
+  #build-to-suit-opportunities .custom-slide img {
+    border-bottom: 6px solid #f1a053;
+  }
+  #build-to-suit-opportunities .custom-slide .slide-info {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 6px;
+    background-color: rgba(0, 71, 125, 0.7);
+    width: 310px;
+  }
+  #build-to-suit-opportunities .custom-slide .slide-info .slide-text {
+    text-align: left;
+    padding: 60px 10px 10px 43px;
+  }
+  #build-to-suit-opportunities .custom-slide .slide-info .slide-text .location {
+    font-size: 24px;
+    margin-bottom: 17px;
+  }
+  #build-to-suit-opportunities .custom-slide .slide-info .slide-text p {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  #build-to-suit-opportunities .custom-slide .slide-info .slide-text br {
+    display: inline-block;
+  }
   /* Waterfront Community */
   #the-waterfront-community .content {
     text-align: left;
@@ -489,6 +577,9 @@ p {
   }
   #the-waterfront-community .content h2 {
     margin-bottom: 40px;
+  }
+  #the-waterfront-community .table {
+    border: 1px solid #adb3b6;
   }
   #the-waterfront-community .table tr {
     display: table-row;
@@ -513,6 +604,22 @@ p {
   #the-waterfront-community .grey-box ul li {
     font-size: 19px;
     line-height: 24px;
+  }
+  #the-waterfront-community .bx-wrapper {
+    margin-top: 80px;
+  }
+  #the-waterfront-community .slide-info .location {
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: none;
+    margin-bottom: 10px;
+  }
+  #the-waterfront-community .slide-info ul {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  #the-waterfront-community .slide-info ul li {
+    margin-top: 0;
   }
 }
 

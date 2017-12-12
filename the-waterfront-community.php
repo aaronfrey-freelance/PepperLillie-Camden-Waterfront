@@ -93,6 +93,82 @@
 
         </div><!-- row -->
 
+        <div class="row">
+
+          <div class="col-md-12">
+            
+            <div class="slider">
+              <div class="custom-slide">
+                <img src="img/suit/slider/slide_01.jpg">
+                <div class="slide-info">
+                  <div class="slide-text">
+                    <div class="location">Waterfront Park</div>
+                    <ul>
+                      <li>An expanded and improved public park</li>
+                      <li>4.4 acres of park space along the waterfront</li>
+                      <li>Designed by Michael Van Valkenburgh Architects</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="custom-slide">
+                <img src="img/suit/slider/slide_02.jpg">
+                <div class="slide-info">
+                  <div class="slide-text">
+                    <div class="location">Waterfront Park</div>
+                    <ul>
+                      <li>An expanded and improved public park</li>
+                      <li>4.4 acres of park space along the waterfront</li>
+                      <li>Designed by Michael Van Valkenburgh Architects</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="custom-slide">
+                <img src="img/suit/slider/slide_03.jpg">
+                <div class="slide-info">
+                  <div class="slide-text">
+                    <div class="location">Waterfront Park</div>
+                    <ul>
+                      <li>An expanded and improved public park</li>
+                      <li>4.4 acres of park space along the waterfront</li>
+                      <li>Designed by Michael Van Valkenburgh Architects</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="custom-slide">
+                <img src="img/suit/slider/slide_04.jpg">
+                <div class="slide-info">
+                  <div class="slide-text">
+                    <div class="location">Waterfront Park</div>
+                    <ul>
+                      <li>An expanded and improved public park</li>
+                      <li>4.4 acres of park space along the waterfront</li>
+                      <li>Designed by Michael Van Valkenburgh Architects</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="custom-slide">
+                <img src="img/suit/slider/slide_05.jpg">
+                <div class="slide-info">
+                  <div class="slide-text">
+                    <div class="location">Waterfront Park</div>
+                    <ul>
+                      <li>An expanded and improved public park</li>
+                      <li>4.4 acres of park space along the waterfront</li>
+                      <li>Designed by Michael Van Valkenburgh Architects</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div><!-- row -->
+
       </div><!-- content -->
 
     </div><!-- container -->
