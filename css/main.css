@@ -237,8 +237,25 @@ p {
   padding-bottom: 100px;
 }
 
+#views .source {
+  font-style: italic;
+  color: #000000;
+  font-size: 7px;
+  line-height: 9.68px;
+  margin-top: 6px;
+  margin-right: 20px;
+}
+
 #views .bottom-img {
   margin: 0 -15px;
+  position: relative;
+}
+
+#views .bottom-img .source {
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+  color: #ffffff;
 }
 
 /* Talent */
@@ -637,8 +654,17 @@ p {
     border: 3px solid #d3d5d7;
   }
   /* Views */
+  #views .source {
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 15px;
+    margin-right: 38px;
+  }
   #views .bottom-img {
     margin: 0;
+  }
+  #views .bottom-img .source {
+    bottom: 15px;
   }
 }
 

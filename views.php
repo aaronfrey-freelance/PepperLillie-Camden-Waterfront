@@ -15,6 +15,8 @@
       <img src="img/views/banner.jpg" class="img-responsive">
     </div>
 
+    <span class="source pull-right">Photo courtesy of American Water</span>
+
     <div class="container">
 
       <div class="row">
@@ -26,6 +28,7 @@
             <p>The Camden Waterfront is a highly visible location on the Delaware River. Each of the buildings within The Camden Waterfront Masterplan has sweeping panoramic views of the Waterfront Park, the Delaware River, the stunning Philadelphia skyline, and the classically elegant Benjamin Franklin Bridge.</p>
             <div class="bottom-img">
               <img src="img/views/night-time.png" class="img-responsive">
+              <div class="source pull-right">Darren LoPrinzi | darrenloprinzi.com</div>
             </div>
           </div>
 
