@@ -278,6 +278,36 @@ p {
   font-style: italic;
 }
 
+/* Waterfront Community */
+
+#the-waterfront-community .table td {
+  padding: 0 19px;
+  font-size: 18px;
+  line-height: 43px;
+  border: 1px solid #adb3b6;
+}
+
+#the-waterfront-community .table td.title {
+  padding: 0 18px;
+  color: #246b97;
+  font-weight: 700;
+}
+
+#the-waterfront-community .grey-box {
+  background-color: #e3e5e9;
+  padding: 20px 20px 15px 0;
+}
+
+#the-waterfront-community .grey-box ul {
+  list-style: square;
+}
+
+#the-waterfront-community .grey-box ul li {
+  font-size: 19px;
+  line-height: 24px;
+  color: #003764;
+}
+
 @media (min-width: 768px) {
   h1 {
     font-size: 32px;
@@ -408,7 +438,6 @@ p {
   }
   #talent-attraction .rating .rank {
     font-size: 170px;
-    //padding-bottom: 3px;
   }
   #talent-attraction .rating .rank sup {
     font-size: 100px;
@@ -421,6 +450,14 @@ p {
 }
 
 /* Helper classes */
+
+.yellow {
+  color: #f1a053 !important;
+}
+
+.grey {
+  color: #5d6770 !important;
+}
 
 .italic {
   font-style: italic;
