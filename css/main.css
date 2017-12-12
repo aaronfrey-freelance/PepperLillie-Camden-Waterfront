@@ -498,8 +498,8 @@ p {
   }
   #about-liberty-property-trust .quote-container {
     min-height: 750px;
-    font-size: 32px;
-    line-height: 44px;
+    font-size: 30px;
+    line-height: 40px;
     padding-top: 50px;
   }
   #about-liberty-property-trust .quote-container .quote::before {
@@ -512,8 +512,8 @@ p {
     bottom: -20px;
   }
   #about-liberty-property-trust .quote-container .quote-person {
-    font-size: 26.09px;
-    line-height: 32.61px;
+    font-size: 23px;
+    line-height: 30px;
   }
   /* Talent */
   #talent-attraction .banner {

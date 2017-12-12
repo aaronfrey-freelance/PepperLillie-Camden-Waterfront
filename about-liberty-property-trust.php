@@ -23,7 +23,7 @@
       <div class="row">
         <div class="col-sm-8 border-right">
           <h1>About Liberty Property Trust</h1>
-          <p>For more than four decades, Liberty has been evolving city skylines as a preeminent commercial developer. From the development of its first project in 1972 to today, Liberty continues to build a portfolio of groundbreaking projects such as Comcast Center, Liberty Place, Cambridge Biomedical Campus, The Navy Yard, The Camden Waterfront, Great Valley Corporate Center and the Comcast Technology Center. Understanding buildings from the ground-up gives Liberty teams the insight to provide solutions today, tomorrow and over the long term.</p>
+          <p>For more than four decades, Liberty has been evolving city skylines as a preeminent commercial developer. From the development of its first project in 1972 to today, Liberty continues to build a portfolio of groundbreaking projects such as Comcast Center, Liberty Place, Cambridge Biomedical Campus, The Navy Yard, The Camden Waterfront, Great Valley Corporate Center, and the Comcast Technology Center. Understanding buildings from the groundup gives Liberty teams the insight to provide solutions today, tomorrow, and over the long term.</p>
           <p>Liberty is passionate about working with each client to develop successful office buildings that attract and retain the workforce of the future.</p>
         </div>
         <div class="col-sm-4">
