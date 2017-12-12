@@ -3,7 +3,7 @@
 
   <?php
     $page_title = "Views from the Waterfront | The Camden Waterfront";
-    $page_description = "The Camden Waterfront is a highly visible location on the Delaware River. Each of the buildings within The Camden Waterfront Masterplan has sweeping panoramic views of the Waterfront Park, the Delaware River, the stunning Philadelphia skyline and the classically elegant Benjamin Franklin Bridge.";
+    $page_description = "The Camden Waterfront is a highly visible location on the Delaware River. Each of the buildings within The Camden Waterfront Masterplan has sweeping panoramic views of the Waterfront Park, the Delaware River, the stunning Philadelphia skyline, and the classically elegant Benjamin Franklin Bridge.";
     include 'partials/head.php';
   ?>
 
@@ -24,7 +24,9 @@
           <div class="col-md-offset-1 col-md-10">
             <h1>Views From the Waterfront</h1>
             <p>The Camden Waterfront is a highly visible location on the Delaware River. Each of the buildings within The Camden Waterfront Masterplan has sweeping panoramic views of the Waterfront Park, the Delaware River, the stunning Philadelphia skyline, and the classically elegant Benjamin Franklin Bridge.</p>
-            <img src="img/views/night-time.png" class="img-responsive">
+            <div class="bottom-img">
+              <img src="img/views/night-time.png" class="img-responsive">
+            </div>
           </div>
 
         </div>
