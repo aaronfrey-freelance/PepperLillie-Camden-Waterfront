@@ -422,6 +422,10 @@ p {
 
 /* Helper classes */
 
+.italic {
+  font-style: italic;
+}
+
 .vertical-align {
   position: relative;
   top: 50%;

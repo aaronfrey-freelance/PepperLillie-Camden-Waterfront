@@ -43,6 +43,11 @@ function getWindowWidth() {
   animateLeft();
 
   // Sliders
-  $('.slider').bxSlider();
+  $('.slider').bxSlider({
+    'mode': 'fade',
+    'speed': 700,
+    'touchEnabled': false,
+    'pager': false
+  });
 
 }());
