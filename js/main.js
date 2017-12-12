@@ -44,11 +44,15 @@ function getWindowWidth() {
   animateLeft();
 
   function fitPanToWindow() {
-    // Get the window height
-    var windowHeight = $(window).height();
-    var headerHeight = $('.header').height();
-    // Set the height of the pan container
-    $('.pan-container, .pan-image').height(windowHeight - headerHeight);
+    if (windowWidth >= 768) {
+      // Get the window height
+      var windowHeight = $(window).height();
+      var headerHeight = $('.header').height();
+      // Set the height of the pan container
+      $('.pan-container, .pan-image').height(windowHeight - headerHeight);
+    } else {
+      $('.pan-container, .pan-image').height(216);
+    }
   }
 
   // Sliders

@@ -84,11 +84,11 @@ p {
 
 #index .home-banner .pan-container {
   position: relative;
-  height: 216px !important;
+  height: 216px;
 }
 
 #index .home-banner .pan-container .pan-image {
-  height: 216px !important;
+  height: 216px;
   background: url('../img/home/slider/slider.jpg') no-repeat;
   background-size: auto 100%;
 }
@@ -431,10 +431,10 @@ p {
     top: 0;
   }
   #index .home-banner .pan-container {
-    min-height: 434px;
+    min-height: 400px;
   }
   #index .home-banner .pan-container .pan-image {
-    min-height: 434px;
+    min-height: 400px;
   }
   #index .home-banner span {
     bottom: 35px;
