@@ -40,9 +40,21 @@
         <img src="img/suit/slider/slide_03.jpg">
         <div class="slide-info">
           <div class="slide-text">
-            <div class="location">55 WATER STREET</div>
+            <div class="location">55 WATER STREET - Option 1</div>
             <p>Designed by<br>Robert A.M. Stern Architects</p>
             <p>Up to 400,000 RSF Office Concept</p>
+            <p class="italic">Ready to be customized<br>upon request</p>
+          </div>
+          <img src="img/suit/maps/map_03.png" class="img-responsive">
+        </div>
+      </div>
+      <div class="custom-slide">
+        <img src="img/suit/slider/slide_04_2.jpg">
+        <div class="slide-info">
+          <div class="slide-text">
+            <div class="location">55 WATER STREET - Option 2</div>
+            <p>Designed by <br>DIGSAU Architects</p>
+            <p>Up to 400,000 RSF office concept</p>
             <p class="italic">Ready to be customized<br>upon request</p>
           </div>
           <img src="img/suit/maps/map_03.png" class="img-responsive">
