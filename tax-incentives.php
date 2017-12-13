@@ -18,15 +18,14 @@
         <div class="row grey-bg">
           <div class="col-md-offset-2 col-md-8">
             <h1>Business Tax Incentive Program</h1>
+            <h2>Grow New Jersey</h2>
+            <p>Grow NJ is a powerful job creation and retention program helping qualified companies succeed in New Jersey.  Within the Grow NJ Program, Camden is designated as a Garden State Growth Zone (GSGZ), which means The Camden Waterfront projects can qualify for the highest levels of economic tax incentives.</p>
           </div>
         </div><!-- .row -->
 
         <div class="row grey-bg">
 
-          <div class="col-sm-5 col-md-offset-2 col-md-4">
-
-            <h2>Grow New Jersey</h2>
-            <p>Grow NJ is a powerful job creation and retention program helping qualified companies succeed in New Jersey.  Within the Grow NJ Program, Camden is designated as a Garden State Growth Zone (GSGZ), which means The Camden Waterfront projects can qualify for the highest levels of economic tax incentives.</p>
+          <div class="col-sm-5 col-md-offset-1 col-md-5">
 
             <div class="hidden-xs">
               <?php include 'partials/incentives-callout.php'; ?>
@@ -34,7 +33,7 @@
 
           </div>
 
-          <div class="col-sm-7 col-md-5">
+          <div class="col-sm-7 col-md-6">
             <img src="img/incentives/info-graphic-top.svg" class="infographic-top img-responsive">
           </div>
 

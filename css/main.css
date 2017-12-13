@@ -506,7 +506,6 @@ p {
 }
 
 #tax-incentives .infographic-top {
-  max-width: 400px;
   margin: 0 auto;
 }
 
@@ -779,12 +778,12 @@ p {
     padding: 84px 0 75px 0;
   }
   #tax-incentives .infographic-top {
-    max-width: 600px;
     padding: 0 25px;
   }
   #tax-incentives .content .call-out {
     background-color: #ffffff;
     padding: 20px 25px 30px 25px;
+    margin-top: 30px;
   }
   #tax-incentives .content .call-out p {
     font-size: 22px;
