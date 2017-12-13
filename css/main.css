@@ -425,6 +425,11 @@ p {
   margin-top: 5px;
 }
 
+#the-waterfront-community .slide-info img {
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
 /* Location */
 
 #location .map {
@@ -735,6 +740,11 @@ p {
   }
   #the-waterfront-community .slide-info ul li {
     margin-top: 0;
+  }
+  #the-waterfront-community .slide-info img {
+    margin: 0;
+    float: right;
+    padding: 0;
   }
   /* Location */
   #location .map {
