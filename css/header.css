@@ -131,7 +131,6 @@
     padding-left: 3%;
     width: 25%;
     position: relative;
-    /* Center Vertically */
     top: 50%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
