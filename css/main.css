@@ -628,7 +628,7 @@ p {
   }
   /* Talent */
   #talent-attraction .banner {
-    min-height: 555px;
+    min-height: 450px;
   }
   #talent-attraction .banner h1 {
     margin: 75px 0 30px;
@@ -637,15 +637,15 @@ p {
     margin-bottom: 30px;
   }
   #talent-attraction .rating {
-    font-size: 35.13px;
-    line-height: 42.16px;
+    font-size: 22px;
+    line-height: 30px;
   }
   #talent-attraction .rating .rank {
-    font-size: 170px;
+    font-size: 100px;
   }
   #talent-attraction .rating .rank sup {
-    font-size: 100px;
-    top: -55px;
+    font-size: 75px;
+    top: -20px;
   }
   #talent-attraction .source {
     font-size: 20px;
@@ -811,6 +811,23 @@ p {
     font-weight: 400;
     display: inline-block;
     padding: 25px 0 75px 0;
+  }
+}
+
+@media (min-width: 992px) {
+  #talent-attraction .banner {
+    min-height: 555px;
+  }
+  #talent-attraction .rating {
+    font-size: 35.13px;
+    line-height: 42.16px;
+  }
+  #talent-attraction .rating .rank {
+    font-size: 170px;
+  }
+  #talent-attraction .rating .rank sup {
+    font-size: 100px;
+    top: -55px;
   }
 }
 
