@@ -157,7 +157,7 @@ p {
   font-size: 15px;
   line-height: 23px;
   color: #000000;
-  padding: 0 15px;
+  padding: 0 15px 30px;
 }
 
 #about-liberty-property-trust .content h1 {
@@ -581,7 +581,7 @@ p {
   #about-liberty-property-trust .content {
     font-size: 20px;
     line-height: 28px;
-    padding: 50px 15px;
+    padding: 80px 15px;
   }
   #about-liberty-property-trust .content li {
     line-height: 30px;
