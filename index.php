@@ -22,7 +22,7 @@
     <div class="content text-center">
       <div class="container">
         <div class="row">
-          <div class="col-md-offset-1 col-md-10">
+          <div class="col-md-12 col-lg-offset-1 col-lg-10">
             <h1>The Future on the Horizon</h1>
             <h2>The Camden Waterfront is an entirely new mixed-use urban neighborhood on the banks of the Delaware River with dramatic views of the stunning Philadelphia skyline and Benjamin Franklin Bridge.</h2>
             <h2>Defined by progressive architecture and vibrant activity throughout the day, The Camden Waterfront will consist of up to 1.2 million square feet of high-performance office space, a 180-room hotel, apartment living, retail amenities and an expanded and improved public park.</h2>

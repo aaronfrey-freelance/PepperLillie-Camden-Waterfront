@@ -39,8 +39,15 @@ function getWindowWidth() {
   function animateLeft() {
     $('.pan-image').animate({
       'background-position-x': '100%'
-    }, 30000, 'linear');
+    }, 30000, 'swing', animateRight);
   }
+
+  function animateRight() {
+    $('.pan-image').animate({
+      'background-position-x': '0%'
+    }, 30000, 'swing', animateLeft);
+  }
+
   animateLeft();
 
   function fitPanToWindow() {
