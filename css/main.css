@@ -56,7 +56,6 @@ p {
   font-size: 12.22px;
   font-weight: 400;
   color: #000000;
-  max-width: 1192px;
   margin: 0 auto;
   padding: 30px 0 100px 0;
 }
@@ -501,6 +500,11 @@ p {
   padding: 32px 23px;
 }
 
+#tax-incentives .infographic-top {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
 @media (min-width: 768px) {
   h1 {
     font-size: 32px;
@@ -751,6 +755,57 @@ p {
     bottom: 15px;
   }
   /* Tax Incentives */
+  #tax-incentives .content h1 {
+    margin: 75px 0 15px;
+    font-size: 32px !important;
+    line-height: 36px !important;
+  }
+  #tax-incentives .content h2 {
+    margin-bottom: 20px;
+  }
+  #tax-incentives .content p {
+    font-size: 20px;
+    line-height: 29px;
+  }
+  #tax-incentives .infographic {
+    margin: 0 auto;
+    padding: 84px 0 75px 0;
+  }
+  #tax-incentives .infographic-top {
+    max-width: 600px;
+    padding: 0 25px;
+  }
+  #tax-incentives .content .call-out {
+    background-color: #ffffff;
+    padding: 20px 25px 30px 25px;
+  }
+  #tax-incentives .content .call-out p {
+    font-size: 24px;
+    line-height: 40px;
+  }
+  #tax-incentives .content ul {
+    padding: 0 0 85px 35px;
+  }
+  #tax-incentives .content ul li {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  #tax-incentives .more-info {
+    font-size: 20px;
+    line-height: 28px;
+    color: #003764;
+    font-weight: 700;
+  }
+  #tax-incentives .more-info a {
+    color: #f28b00;
+  }
+  #tax-incentives .more-info span {
+    color: #7f8288;
+    font-style: italic;
+    font-weight: 400;
+    display: inline-block;
+    padding: 25px 0 75px 0;
+  }
 }
 
 /* Helper classes */
