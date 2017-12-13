@@ -67,7 +67,8 @@ function getWindowWidth() {
     'mode': 'fade',
     'speed': 700,
     'touchEnabled': false,
-    'pager': false
+    'pager': false,
+    'adaptiveHeight': true
   });
 
 }());
