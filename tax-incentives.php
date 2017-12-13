@@ -19,7 +19,7 @@
           <div class="col-md-offset-2 col-md-8">
             <h1>Business Tax Incentive Program</h1>
             <h2>Grow New Jersey</h2>
-            <p>Grow NJ is a powerful job creation and retention program helping qualified companies succeed in New Jersey.  Within the Grow NJ Program, Camden is designated as a Garden State Growth Zone (GSGZ), which means The Camden Waterfront projects can qualify for the highest levels of economic tax incentives.</p>
+            <p>Grow NJ is a powerful job creation and retention program helping qualified companies succeed in New Jersey.  Within the Grow NJ Program, Camden is designated as a Garden State Growth Zone (GSGZ), which means The Camden Waterfront projects can qualify for the highest levels of economic tax incentives. These incentives will cover 100% or more of the costs involved with creating a new office facility.</p>
           </div>
         </div><!-- .row -->
 
