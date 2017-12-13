@@ -21,6 +21,7 @@
             <p>50,000 RSF Office Concept</p>
             <p class="italic">Ready to be customized<br>upon request</p>
           </div>
+          <img src="img/suit/maps/map_01.png" class="img-responsive">
         </div>
       </div>
       <div class="custom-slide">
@@ -32,6 +33,7 @@
             <p>50,000 -75,000 RSF Office Concept</p>
             <p class="italic">Ready to be customized<br>upon request</p>
           </div>
+          <img src="img/suit/maps/map_02.png" class="img-responsive">
         </div>
       </div>
       <div class="custom-slide">
@@ -43,6 +45,7 @@
             <p>Up to 400,000 RSF Office Concept</p>
             <p class="italic">Ready to be customized<br>upon request</p>
           </div>
+          <img src="img/suit/maps/map_03.png" class="img-responsive">
         </div>
       </div>
       <div class="custom-slide">
@@ -54,6 +57,7 @@
             <p>90,000 RSF Office Concept</p>
             <p class="italic">Ready to be customized<br>upon request</p>
           </div>
+          <img src="img/suit/maps/map_04.png" class="img-responsive">
         </div>
       </div>
       <div class="custom-slide">
