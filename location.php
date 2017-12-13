@@ -12,7 +12,7 @@
     <?php include 'partials/header.php'; ?>
 
     <div class="banner">
-      <img src="img/location/banner.png" class="img-responsive">
+      <img src="img/location/banner.jpg" class="img-responsive">
     </div>
 
     <div class="container">

@@ -99,7 +99,7 @@
             
             <div class="slider">
               <div class="custom-slide">
-                <img src="img/suit/slider/slide_01.jpg">
+                <img src="img/community/community1.jpg">
                 <div class="slide-info">
                   <div class="slide-text">
                     <div class="location">Waterfront Park</div>
@@ -112,57 +112,45 @@
                 </div>
               </div>
               <div class="custom-slide">
-                <img src="img/suit/slider/slide_02.jpg">
+                <img src="img/community/community2.jpg">
                 <div class="slide-info">
                   <div class="slide-text">
-                    <div class="location">Waterfront Park</div>
+                    <div class="location">Residential - 11 Cooper Street</div>
                     <ul>
-                      <li>An expanded and improved public park</li>
-                      <li>4.4 acres of park space along the waterfront</li>
-                      <li>Designed by Michael Van Valkenburgh Architects</li>
+                      <li>156-unit modern apartment community</li>
+                      <li>Designed by JKRP Architects</li>
+                      <li>Featuring convenient amenities and ground level retail</li>
                     </ul>
                   </div>
                 </div>
               </div>
               <div class="custom-slide">
-                <img src="img/suit/slider/slide_03.jpg">
+                <img src="img/community/community3.jpg">
                 <div class="slide-info">
                   <div class="slide-text">
-                    <div class="location">Waterfront Park</div>
+                    <div class="location">Hotel - One Penn Street</div>
                     <ul>
-                      <li>An expanded and improved public park</li>
-                      <li>4.4 acres of park space along the waterfront</li>
-                      <li>Designed by Michael Van Valkenburgh Architects</li>
+                      <li>180-room Hilton Garden Inn hotel</li>
+                      <li>Designed by Cope Linder Architects</li>
+                      <li>Featuring a full-service restaurant and conference space</li>
                     </ul>
                   </div>
                 </div>
               </div>
               <div class="custom-slide">
-                <img src="img/suit/slider/slide_04.jpg">
+                <img src="img/community/community4.jpg">
                 <div class="slide-info">
                   <div class="slide-text">
-                    <div class="location">Waterfront Park</div>
+                    <div class="location">American Water - One Water Street</div>
                     <ul>
-                      <li>An expanded and improved public park</li>
-                      <li>4.4 acres of park space along the waterfront</li>
-                      <li>Designed by Michael Van Valkenburgh Architects</li>
+                      <li>220,000 RSF American Water Headquarters on The Camden Waterfront. Project Delivery: Fall 2018</li>
+                      <li>Designed by Robert A. M. Stern Architects</li>
+                      <li>Targeting LEED Platinum Core and Shell and LEED Gold Commercial Interiors</li>
                     </ul>
                   </div>
                 </div>
               </div>
-              <div class="custom-slide">
-                <img src="img/suit/slider/slide_05.jpg">
-                <div class="slide-info">
-                  <div class="slide-text">
-                    <div class="location">Waterfront Park</div>
-                    <ul>
-                      <li>An expanded and improved public park</li>
-                      <li>4.4 acres of park space along the waterfront</li>
-                      <li>Designed by Michael Van Valkenburgh Architects</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
+             
             </div>
 
           </div>

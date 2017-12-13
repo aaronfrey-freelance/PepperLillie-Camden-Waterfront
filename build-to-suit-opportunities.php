@@ -27,9 +27,9 @@
         <img src="img/suit/slider/slide_02.jpg">
         <div class="slide-info">
           <div class="slide-text">
-            <div class="location">77 Water Street</div>
-            <p>Designed by<br>DIGSAU Architects</p>
-            <p>50,000 RSF Office Concept</p>
+            <div class="location">TWO PENN STREET</div>
+            <p>Designed by<br>Kelly/Maiello Architects</p>
+            <p>50,000 -75,000 RSF Office Concept</p>
             <p class="italic">Ready to be customized<br>upon request</p>
           </div>
         </div>
@@ -38,9 +38,9 @@
         <img src="img/suit/slider/slide_03.jpg">
         <div class="slide-info">
           <div class="slide-text">
-            <div class="location">77 Water Street</div>
-            <p>Designed by<br>DIGSAU Architects</p>
-            <p>50,000 RSF Office Concept</p>
+            <div class="location">55 WATER STREET</div>
+            <p>Designed by<br>Robert A.M. Stern Architects</p>
+            <p>Up to 400,000 RSF Office Concept</p>
             <p class="italic">Ready to be customized<br>upon request</p>
           </div>
         </div>
@@ -49,9 +49,9 @@
         <img src="img/suit/slider/slide_04.jpg">
         <div class="slide-info">
           <div class="slide-text">
-            <div class="location">77 Water Street</div>
-            <p>Designed by<br>DIGSAU Architects</p>
-            <p>50,000 RSF Office Concept</p>
+            <div class="location">ONE VICTOR PLACE</div>
+            <p>Designed by<br>Robert A.M. Stern Architects</p>
+            <p>90,000 RSF Office Concept</p>
             <p class="italic">Ready to be customized<br>upon request</p>
           </div>
         </div>
@@ -60,10 +60,7 @@
         <img src="img/suit/slider/slide_05.jpg">
         <div class="slide-info">
           <div class="slide-text">
-            <div class="location">77 Water Street</div>
-            <p>Designed by<br>DIGSAU Architects</p>
-            <p>50,000 RSF Office Concept</p>
-            <p class="italic">Ready to be customized<br>upon request</p>
+            <div class="location">OFFICE WORK CONCEPT</div>
           </div>
         </div>
       </div>

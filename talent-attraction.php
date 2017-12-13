@@ -11,7 +11,7 @@
       
     <?php include 'partials/header.php'; ?>
 
-    <div class="banner cover" style="background-image: url('img/talent/banner.png');">
+    <div class="banner cover" style="background-image: url('img/talent/banner.jpg');">
       <div class="banner-content">
         <div class="container">
           <div class="row">
