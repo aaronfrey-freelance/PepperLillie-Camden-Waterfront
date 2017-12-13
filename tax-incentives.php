@@ -34,7 +34,7 @@
           </div>
 
           <div class="col-md-8">
-            <img src="img/incentives/circle-chart.png" class="img-responsive">
+            <img src="img/incentives/info-graphic-top.svg" class="img-responsive">
           </div>
 
         </div><!-- .row -->
@@ -65,7 +65,7 @@
         <div class="col-md-12">
           
           <img src="img/incentives/infographic-mobile.png" class="infographic visible-xs img-responsive">
-          <img src="img/incentives/infographic.png" class="infographic hidden-xs img-responsive">
+          <img src="img/incentives/info-graphic-bottom.svg" class="infographic hidden-xs img-responsive">
 
           <p class="text-center hidden-xs">
             For more information on the NJ Grow Program in Camden, please visit the New Jersey Economic<br>
