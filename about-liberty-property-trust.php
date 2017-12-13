@@ -13,9 +13,9 @@
 
     <!-- 1645px -->
     <div class="img-container clearfix">
-      <div style="background-image: url('img/about/about-01.png');"></div>
-      <div style="background-image: url('img/about/about-02.png');"></div>
-      <div style="background-image: url('img/about/about-03.png');"></div>
+      <div style="background-image: url('img/about/about_01.jpg');"></div>
+      <div style="background-image: url('img/about/about_02.jpg');"></div>
+      <div style="background-image: url('img/about/about_03.jpg');"></div>
     </div>
 
     <div class="container content">
