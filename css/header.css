@@ -95,6 +95,8 @@
   display: none;
 }
 
+
+
 /* Homepage Overrides */
 
 #index .header {
@@ -124,49 +126,36 @@
 }
 
 @media (min-width: 768px) {
-  .header .navbar {
+  .header {
     height: 200px;
+    position: relative !important;
   }
   .header .navbar .navbar-header {
-    padding-left: 3%;
-    width: 25%;
-    position: relative;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    float: none;
   }
   .header .navbar .navbar-header .navbar-brand {
+    float: none;
     width: auto;
-    height: auto;
-    padding: 0;
-    margin: 0;
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 20px;
   }
   .header .navbar .navbar-header .navbar-brand img {
     width: auto;
-  }
-  .header .navbar .navbar-collapse {
-    position: relative;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    margin: 0 auto;
   }
   .header .navbar .navbar-collapse .navbar-nav {
-    width: 75%;
-    padding-left: 4%;
+    float: none;
     background-color: transparent;
   }
   .header .navbar .navbar-collapse .navbar-nav>li {
-    margin-right: 3.65%;
+    width: 25%;
     border: none;
   }
-  .header .navbar .navbar-collapse .navbar-nav>li>a {
-    padding: 8px 0;
-  }
   .header .navbar .navbar-collapse .navbar-nav li a {
-    font-size: 12.5px;
+    font-size: 14px;
     line-height: 1.2;
+    padding: 0 5px;
     color: #00477d;
   }
   .header .navbar .navbar-collapse .navbar-nav li.active a,
@@ -177,7 +166,7 @@
     color: #f28b00;
   }
   .header .navbar .navbar-collapse .navbar-nav .dropdown-menu {
-    top: -19px;
+    top: -26px;
     border-radius: 0;
     border: none;
     -webkit-box-shadow: -5px 5px 5px 0px rgba(000, 000, 000, 0.3);
@@ -190,9 +179,8 @@
   .header .navbar .navbar-collapse .navbar-nav .dropdown-menu a.disabled {
     display: block;
   }
-  #index .header {
-    position: relative;
-  }
+
+
   #index .header .navbar .navbar-collapse {
     position: relative;
     top: 50%;
