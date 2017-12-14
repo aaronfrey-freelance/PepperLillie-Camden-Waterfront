@@ -23,7 +23,7 @@ h1 {
 h2 {
   color: #003764;
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 400;
   margin-bottom: 15px;
 }
 
@@ -116,7 +116,7 @@ ul {
 #index .content h1 {
   font-size: 20px;
   line-height: 42px;
-  font-weight: 600;
+  font-weight: 400;
   text-transform: none;
   margin: 0;
 }
@@ -194,7 +194,7 @@ ul {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  font-weight: 600;
+  font-weight: 400;
   color: #003764;
   font-size: 15.2px;
   line-height: 20.89px;
@@ -280,7 +280,7 @@ ul {
   font-size: 8.71px;
   line-height: 10.45px;
   color: #246b97;
-  font-weight: 600;
+  font-weight: 400;
   font-style: italic;
   text-align: center;
 }
@@ -388,7 +388,7 @@ ul {
 #the-waterfront-community .table td.title {
   padding: 0 18px;
   color: #246b97;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 #the-waterfront-community .grey-box {
@@ -415,7 +415,7 @@ ul {
   font-size: 15px;
   text-transform: uppercase;
   color: #f1a053;
-  font-weight: 600;
+  font-weight: 400;
   margin-bottom: 15px;
 }
 
@@ -550,7 +550,7 @@ ul {
   }
   #index .home-banner .pan-container,
   #index .home-banner .pan-container .pan-image {
-    min-height: 325px;
+    min-height: 345px;
   }
   #index .home-banner span {
     bottom: 15px;
