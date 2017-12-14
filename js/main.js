@@ -71,4 +71,17 @@ function getWindowWidth() {
     'adaptiveHeight': true
   });
 
+  $('.navbar-toggle').on('click', function() {
+    if ($('.navbar-collapse').hasClass('in')) {
+      $('.video_tour')
+        .delay(800)
+        .queue(function(next) {
+          $(this).css('z-index', '2');
+          next();
+        });
+    } else {
+      $('.video_tour').css('z-index', '1');;
+    }
+  });
+
 }());
