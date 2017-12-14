@@ -56,7 +56,7 @@ function getWindowWidth() {
       var windowHeight = $(window).height();
       var headerHeight = $('.header').height();
       // Set the height of the pan container
-      $('.pan-container, .pan-image').height(windowHeight - headerHeight);
+      $('.pan-container, .pan-image').height(windowHeight - headerHeight - 50);
     } else {
       $('.pan-container, .pan-image').height(216);
     }
