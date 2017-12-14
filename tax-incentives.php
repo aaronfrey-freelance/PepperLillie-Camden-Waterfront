@@ -25,7 +25,7 @@
 
         <div class="row grey-bg">
 
-          <div class="col-sm-5 col-md-offset-1 col-md-5">
+          <div class="col-sm-5 col-md-offset-2 col-md-4">
 
             <div class="hidden-xs">
               <?php include 'partials/incentives-callout.php'; ?>
@@ -33,7 +33,7 @@
 
           </div>
 
-          <div class="col-sm-7 col-md-6">
+          <div class="col-sm-7 col-md-5">
             <img src="img/incentives/info-graphic-top.svg" class="infographic-top img-responsive">
           </div>
 

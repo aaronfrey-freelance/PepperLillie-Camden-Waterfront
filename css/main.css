@@ -651,7 +651,7 @@ ul {
     top: -20px;
   }
   #talent-attraction .source {
-    font-size: 20px;
+    font-size: 18px;
     float: right;
   }
   /* Built to Suit */
@@ -766,8 +766,8 @@ ul {
   /* Tax Incentives */
   #tax-incentives .content h1 {
     margin: 75px 0 15px;
-    font-size: 32px !important;
-    line-height: 36px !important;
+    font-size: 32px;
+    line-height: 36px;
   }
   #tax-incentives .content h2 {
     margin-bottom: 20px;
@@ -788,9 +788,13 @@ ul {
     padding: 20px 25px 30px 25px;
     margin-top: 30px;
   }
+  #tax-incentives .content .call-out h1 {
+    font-size: 24px;
+  }
   #tax-incentives .content .call-out p {
-    font-size: 22px;
-    line-height: 34px;
+    font-size: 20px;
+    line-height: 29px;
+    margin-top: 5px;
   }
   #tax-incentives .content ul {
     padding: 0 0 85px 35px;
@@ -814,23 +818,6 @@ ul {
     font-weight: 400;
     display: inline-block;
     padding: 25px 0 75px 0;
-  }
-}
-
-@media (min-width: 992px) {
-  #talent-attraction .banner {
-    min-height: 555px;
-  }
-  #talent-attraction .rating {
-    font-size: 35.13px;
-    line-height: 42.16px;
-  }
-  #talent-attraction .rating .rank {
-    font-size: 170px;
-  }
-  #talent-attraction .rating .rank sup {
-    font-size: 100px;
-    top: -55px;
   }
 }
 
