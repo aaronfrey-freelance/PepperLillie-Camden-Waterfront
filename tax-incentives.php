@@ -57,19 +57,19 @@
       <div class="row">
         
         <div class="col-md-offset-2 col-md-8">
-          
           <img src="img/incentives/infographic-mobile.png" class="infographic visible-xs img-responsive">
           <img src="img/incentives/info-graphic-bottom.svg" class="infographic hidden-xs img-responsive">
+        </div>
 
+        <div class="col-md-12">
           <p class="more-info text-center hidden-xs">
             For more information on the NJ Grow Program in Camden, please visit the New Jersey Economic<br>
             Development Authority (NJEDA) website: <a href="http://www.njeda.com/pdfs/GSGZ_Camden.aspx" target="_blank">http://www.njeda.com/pdfs/GSGZ_Camden.aspx</a><br>
             <span>*Businesses should consult with the NJEDA to determine their maximum tax credit eligibility.</span>
-          </p>
-
+          </p>          
         </div>
 
-      </div>
+      </div><!-- .row -->
 
     </div>
 
