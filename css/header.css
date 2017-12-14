@@ -38,6 +38,7 @@
 
 .navbar .navbar-collapse {
   padding: 0;
+  overflow: visible;
 }
 
 .navbar .navbar-collapse .mobile-brand {
@@ -152,11 +153,18 @@
     background-color: transparent;
   }
   .navbar .navbar-collapse .navbar-nav>li {
-    width: 25%;
+    float: none;
+    display:inline-block;
+    *display:inline;
+    *zoom:1;
+    margin-right: 5px;
     border: none;
   }
+  .navbar .navbar-collapse .navbar-nav>li:last-child {
+    margin: 0;
+  }
   .navbar .navbar-collapse .navbar-nav li a {
-    font-size: 14px;
+    font-size: 11px;
     line-height: 1.2;
     padding: 0 5px;
     color: #00477d;
@@ -169,7 +177,7 @@
     color: #f28b00;
   }
   .navbar .navbar-collapse .navbar-nav .dropdown-menu {
-    top: -26px;
+    top: -21px;
     border-radius: 0;
     border: none;
     -webkit-box-shadow: -5px 5px 5px 0px rgba(000, 000, 000, 0.3);
@@ -182,9 +190,18 @@
   .navbar .navbar-collapse .navbar-nav .dropdown-menu a.disabled {
     display: block;
   }
-  #index .navbar .navbar-collapse {
+  #index .navbar {
+    position: fixed;
+  }
+  #index .navbar .container-fluid {
     position: relative;
     top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  #index .navbar .navbar-collapse {
+    position: relative;
   }
   #index .navbar .navbar-collapse .mobile-brand {
     display: none;
@@ -195,40 +212,43 @@
     display: inline-block;
     padding: 0;
   }
-  #index .navbar .navbar-collapse .navbar-nav>li {
-    margin-right: 10px;
+  .navbar .navbar-collapse .navbar-nav>li {
+    margin-right: 7px;
   }
-  #index .navbar .navbar-collapse .navbar-nav>li>a {
+  .navbar .navbar-collapse .navbar-nav>li>a {
     padding: 5px;
   }
-  #index .navbar .navbar-collapse .navbar-nav li a {
+  .navbar .navbar-collapse .navbar-nav li a {
     font-size: 11px;
   }
 }
 
 @media (min-width: 992px) {
-  #index .navbar .navbar-collapse .navbar-nav>li {
+  .navbar .navbar-collapse .navbar-nav .dropdown-menu {
+    top: -18px;
+  }
+  .navbar .navbar-collapse .navbar-nav>li {
     margin-right: 24px;
   }
-  #index .navbar .navbar-collapse .navbar-nav>li>a {
+  .navbar .navbar-collapse .navbar-nav>li>a {
     padding: 8px;
   }
-  #index .navbar .navbar-collapse .navbar-nav li a {
+  .navbar .navbar-collapse .navbar-nav li a {
     font-size: 13px;
   }
 }
 
 @media only screen and (min-width: 1175px) {
-  #index .navbar .navbar-collapse .navbar-nav li a {
+  .navbar .navbar-collapse .navbar-nav li a {
     font-size: 16px;
   }
 }
 
 @media only screen and (min-width: 1350px) {
-  #index .navbar .navbar-collapse .navbar-nav>li {
+  .navbar .navbar-collapse .navbar-nav>li {
     margin-right: 34px;
   }
-  #index .navbar .navbar-collapse .navbar-nav li a {
+  .navbar .navbar-collapse .navbar-nav li a {
     font-size: 18px;
   }
 }
