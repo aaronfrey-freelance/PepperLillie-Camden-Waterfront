@@ -1,4 +1,4 @@
-.header .navbar {
+.navbar {
   margin: 0;
   border: none;
   height: 80px;
@@ -7,61 +7,61 @@
   text-align: center;
 }
 
-.header .navbar .navbar-header {
+.navbar .navbar-header {
   position: relative;
   z-index: 99999;
 }
 
-.header .navbar .navbar-header .navbar-toggle {
+.navbar .navbar-header .navbar-toggle {
   border: none;
   margin: 24px 10px 24px 0;
 }
 
-.header .navbar .navbar-header .navbar-toggle .icon-bar {
+.navbar .navbar-header .navbar-toggle .icon-bar {
   background-color: #111111;
   width: 20px;
 }
 
-.header .navbar .navbar-header .navbar-toggle .icon-bar+.icon-bar {
+.navbar .navbar-header .navbar-toggle .icon-bar+.icon-bar {
   margin-top: 3px;
 }
 
-.header .navbar .navbar-header .navbar-brand {
+.navbar .navbar-header .navbar-brand {
   width: calc(100% - 50px);
   padding: 0 20px;
   margin-top: 27px;
 }
 
-.header .navbar .navbar-header .navbar-brand img {
+.navbar .navbar-header .navbar-brand img {
   width: 298px;
 }
 
-.header .navbar .navbar-collapse {
+.navbar .navbar-collapse {
   padding: 0;
 }
 
-.header .navbar .navbar-collapse .mobile-brand {
+.navbar .navbar-collapse .mobile-brand {
   display: none;
 }
 
-.header .navbar .navbar-collapse .navbar-nav {
+.navbar .navbar-collapse .navbar-nav {
   margin: 0;
   background-color: #0c3c61;
 }
 
-.header .navbar .navbar-collapse .navbar-nav>li {
+.navbar .navbar-collapse .navbar-nav>li {
   border-bottom: 1px solid #f1a053;
 }
 
-.header .navbar .navbar-collapse .navbar-nav>li:last-child {
+.navbar .navbar-collapse .navbar-nav>li:last-child {
   border: none;
 }
 
-.header .navbar .navbar-collapse .navbar-nav>li>a {
+.navbar .navbar-collapse .navbar-nav>li>a {
   padding: 0 10px;
 }
 
-.header .navbar .navbar-collapse .navbar-nav li a {
+.navbar .navbar-collapse .navbar-nav li a {
   font-size: 16px;
   line-height: 52px;
   font-weight: 600;
@@ -69,10 +69,10 @@
   text-transform: uppercase;
 }
 
-.header .navbar .navbar-collapse .navbar-nav li a:hover,
-.header .navbar .navbar-collapse .navbar-nav li a:active,
-.header .navbar .navbar-collapse .navbar-nav li a:focus,
-.header .navbar .navbar-collapse .navbar-nav li a.disabled,
+.navbar .navbar-collapse .navbar-nav li a:hover,
+.navbar .navbar-collapse .navbar-nav li a:active,
+.navbar .navbar-collapse .navbar-nav li a:focus,
+.navbar .navbar-collapse .navbar-nav li a.disabled,
 .nav .open>a,
 .nav .open>a:focus,
 .nav .open>a:hover {
@@ -81,91 +81,94 @@
   opacity: 1;
 }
 
-.header .navbar .navbar-collapse .navbar-nav .dropdown-menu {
+.navbar .navbar-collapse .navbar-nav .dropdown-menu {
   padding-bottom: 20px;
 }
 
-.header .navbar .navbar-collapse .navbar-nav .dropdown-menu a {
+.navbar .navbar-collapse .navbar-nav .dropdown-menu a {
   padding: 5px;
   line-height: 1.2;
   text-align: center;
 }
 
-.header .navbar .navbar-collapse .navbar-nav .dropdown-menu a.disabled {
+.navbar .navbar-collapse .navbar-nav .dropdown-menu a.disabled {
   display: none;
 }
 
-
-
 /* Homepage Overrides */
 
-#index .header {
+#index .navbar {
   position: absolute;
   width: 100%;
 }
 
-#index .header .navbar .navbar-header .navbar-brand {
+#index .navbar .navbar-header .navbar-brand {
   display: none;
 }
 
-#index .header .navbar .navbar-collapse {
+#index .navbar .navbar-collapse {
   position: absolute;
   width: 100%;
   top: 0;
 }
 
-#index .header .navbar .navbar-collapse .mobile-brand {
+#index .navbar .navbar-collapse .mobile-brand {
   display: block;
   background-color: #ffffff;
   height: 80px;
   padding: 27px 20px 0;
 }
 
-#index .header .navbar .navbar-collapse .mobile-brand img {
+#index .navbar .navbar-collapse .mobile-brand img {
   width: 298px;
 }
 
 @media (min-width: 768px) {
-  .header {
-    height: 200px;
-    position: relative !important;
+  body {
+    padding-top: 200px;
   }
-  .header .navbar .navbar-header {
+  .navbar {
+    background-color: #ffffff;
+    height: 200px;
+    position: fixed;
+    z-index: 99999;
+  }
+  .navbar .navbar-header {
     float: none;
   }
-  .header .navbar .navbar-header .navbar-brand {
+  .navbar .navbar-header .navbar-brand {
     float: none;
     width: auto;
     display: block;
     margin-top: 50px;
     margin-bottom: 20px;
   }
-  .header .navbar .navbar-header .navbar-brand img {
+  .navbar .navbar-header .navbar-brand img {
     width: auto;
     margin: 0 auto;
   }
-  .header .navbar .navbar-collapse .navbar-nav {
+  .navbar .navbar-collapse .navbar-nav {
     float: none;
     background-color: transparent;
   }
-  .header .navbar .navbar-collapse .navbar-nav>li {
+  .navbar .navbar-collapse .navbar-nav>li {
     width: 25%;
     border: none;
   }
-  .header .navbar .navbar-collapse .navbar-nav li a {
+  .navbar .navbar-collapse .navbar-nav li a {
     font-size: 14px;
     line-height: 1.2;
     padding: 0 5px;
     color: #00477d;
   }
-  .header .navbar .navbar-collapse .navbar-nav li.active a,
-  .header .navbar .navbar-collapse .navbar-nav li a:hover,
-  .header .navbar .navbar-collapse .navbar-nav li a:active,
-  .header .navbar .navbar-collapse .navbar-nav li a:focus,
-  .header .navbar .navbar-collapse .navbar-nav li a.disabled {
+  .navbar .navbar-collapse .navbar-nav li.active a,
+  .navbar .navbar-collapse .navbar-nav li a:hover,
+  .navbar .navbar-collapse .navbar-nav li a:active,
+  .navbar .navbar-collapse .navbar-nav li a:focus,
+  .navbar .navbar-collapse .navbar-nav li a.disabled {
     color: #f28b00;
   }
-  .header .navbar .navbar-collapse .navbar-nav .dropdown-menu {
+  .navbar .navbar-collapse .navbar-nav .dropdown-menu {
     top: -26px;
     border-radius: 0;
     border: none;
@@ -176,81 +179,79 @@
     text-align: center;
     padding: 20px 0;
   }
-  .header .navbar .navbar-collapse .navbar-nav .dropdown-menu a.disabled {
+  .navbar .navbar-collapse .navbar-nav .dropdown-menu a.disabled {
     display: block;
   }
-
-
-  #index .header .navbar .navbar-collapse {
+  #index .navbar .navbar-collapse {
     position: relative;
     top: 50%;
   }
-  #index .header .navbar .navbar-collapse .mobile-brand {
+  #index .navbar .navbar-collapse .mobile-brand {
     display: none;
   }
-  #index .header .navbar .navbar-collapse .navbar-nav {
+  #index .navbar .navbar-collapse .navbar-nav {
     width: auto;
     float: none;
     display: inline-block;
     padding: 0;
   }
-  #index .header .navbar .navbar-collapse .navbar-nav>li {
+  #index .navbar .navbar-collapse .navbar-nav>li {
     margin-right: 10px;
   }
-  #index .header .navbar .navbar-collapse .navbar-nav>li>a {
+  #index .navbar .navbar-collapse .navbar-nav>li>a {
     padding: 5px;
   }
-  #index .header .navbar .navbar-collapse .navbar-nav li a {
+  #index .navbar .navbar-collapse .navbar-nav li a {
     font-size: 11px;
   }
 }
 
 @media (min-width: 992px) {
-  #index .header .navbar .navbar-collapse .navbar-nav>li {
+  #index .navbar .navbar-collapse .navbar-nav>li {
     margin-right: 24px;
   }
-  #index .header .navbar .navbar-collapse .navbar-nav>li>a {
+  #index .navbar .navbar-collapse .navbar-nav>li>a {
     padding: 8px;
   }
-  #index .header .navbar .navbar-collapse .navbar-nav li a {
+  #index .navbar .navbar-collapse .navbar-nav li a {
     font-size: 13px;
   }
 }
 
 @media only screen and (min-width: 1175px) {
-  #index .header .navbar .navbar-collapse .navbar-nav li a {
+  #index .navbar .navbar-collapse .navbar-nav li a {
     font-size: 16px;
   }
 }
 
 @media only screen and (min-width: 1350px) {
-  #index .header .navbar .navbar-collapse .navbar-nav>li {
+  #index .navbar .navbar-collapse .navbar-nav>li {
     margin-right: 34px;
   }
-  #index .header .navbar .navbar-collapse .navbar-nav li a {
+  #index .navbar .navbar-collapse .navbar-nav li a {
     font-size: 18px;
   }
 }
 
 @media only screen and (min-width: 1500px) {
-  .header .navbar .navbar-header {
+  .navbar .navbar-header {
     padding-left: 4%;
     width: 30%;
   }
-  .header .navbar .navbar-collapse .navbar-nav {
+  .navbar .navbar-collapse .navbar-nav {
     width: 70%;
   }
-  .header .navbar .navbar-collapse .navbar-nav li a {
+  .navbar .navbar-collapse .navbar-nav li a {
     font-size: 14px;
   }
 }
 
 @media only screen and (min-width: 1650px) {
-  .header .navbar .navbar-header {
+  .navbar .navbar-header {
     padding-left: 5.5%;
     width: 35%;
   }
-  .header .navbar .navbar-collapse .navbar-nav {
+  .navbar .navbar-collapse .navbar-nav {
     width: 65%;
     padding-left: 5.5%;
   }
