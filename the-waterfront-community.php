@@ -126,7 +126,7 @@
                     </ul>
                   </div>
                   <div class="col-sm-4">
-                    <img src="img/community/maps/map_02.png" class="img-responsive">
+                    <img src="img/community/maps/map_01.png" class="img-responsive">
                   </div>
                 </div>
               </div>
