@@ -11,6 +11,14 @@
       
     <?php include 'partials/header.php'; ?>
 
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>The Camden Waterfront Community</h1>
+        </div>
+      </div>
+    </div>
+
     <div class="banner">
       <img src="img/community/banner.png" class="img-responsive">
     </div>
@@ -21,7 +29,6 @@
 
         <div class="row">
           <div class="col-md-12">
-            <h1>The Camden Waterfront Community</h1>
             <h2>Master Site Plan</h2>
           </div>
         </div>
@@ -104,9 +111,9 @@
                   <div class="slide-text col-sm-8">
                     <div class="location">Waterfront Park</div>
                     <ul>
-                      <li>An expanded and improved public park</li>
-                      <li>4.4 acres of park space along the waterfront</li>
-                      <li>Designed by Michael Van Valkenburgh Architects</li>
+                      <li><span>An expanded and improved public park</span></li>
+                      <li><span>4.4 acres of park space along the waterfront</span></li>
+                      <li><span>Designed by Michael Van Valkenburgh Architects</span></li>
                     </ul>
                   </div>
                   <div class="col-sm-4">
@@ -120,9 +127,9 @@
                   <div class="slide-text col-sm-8">
                     <div class="location">Residential - 11 Cooper Street</div>
                     <ul>
-                      <li>156-unit modern apartment community</li>
-                      <li>Designed by JKRP Architects</li>
-                      <li>Featuring convenient amenities and ground level retail</li>
+                      <li><span>156-unit modern apartment community</span></li>
+                      <li><span>Designed by JKRP Architects</span></li>
+                      <li><span>Featuring convenient amenities and ground level retail</span></li>
                     </ul>
                   </div>
                   <div class="col-sm-4">
@@ -136,9 +143,9 @@
                   <div class="slide-text col-sm-8">
                     <div class="location">Hotel - One Penn Street</div>
                     <ul>
-                      <li>180-room Hilton Garden Inn hotel</li>
-                      <li>Designed by Cope Linder Architects</li>
-                      <li>Featuring a full-service restaurant and conference space</li>
+                      <li><span>180-room Hilton Garden Inn hotel</span></li>
+                      <li><span>Designed by Cope Linder Architects</span></li>
+                      <li><span>Featuring a full-service restaurant and conference space</span></li>
                     </ul>
                   </div>
                   <div class="col-sm-4">
@@ -152,9 +159,9 @@
                   <div class="slide-text col-sm-8">
                     <div class="location">American Water - One Water Street</div>
                     <ul>
-                      <li>220,000 RSF American Water Headquarters on The Camden Waterfront. Project Delivery: Fall 2018</li>
-                      <li>Designed by Robert A. M. Stern Architects</li>
-                      <li>Targeting LEED Platinum Core and Shell and LEED Gold Commercial Interiors</li>
+                      <li><span>220,000 RSF American Water Headquarters on The Camden Waterfront. Project Delivery: Fall 2018</span></li>
+                      <li><span>Designed by Robert A. M. Stern Architects</span></li>
+                      <li><span>Targeting LEED Platinum Core and Shell and LEED Gold Commercial Interiors</span></li>
                     </ul>
                   </div>
                   <div class="col-sm-4">

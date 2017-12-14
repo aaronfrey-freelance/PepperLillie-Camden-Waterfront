@@ -400,7 +400,6 @@ ul {
 #the-waterfront-community .grey-box ul li {
   font-size: 17.36px;
   line-height: 21.93px;
-  color: #003764;
 }
 
 #the-waterfront-community .slide-info {
@@ -427,6 +426,7 @@ ul {
 
 #the-waterfront-community .slide-info ul li {
   margin-top: 5px;
+  font-weight: 300;
 }
 
 #the-waterfront-community .slide-info img {
@@ -701,6 +701,7 @@ ul {
     margin: 73px 0 40px;
   }
   #the-waterfront-community .content h2 {
+    margin-top: 40px;
     margin-bottom: 40px;
   }
   #the-waterfront-community .table {
@@ -737,12 +738,17 @@ ul {
     margin-bottom: 10px;
   }
   #the-waterfront-community .slide-info ul {
-    font-size: 20px;
-    line-height: 28px;
     padding-left: 20px;
   }
   #the-waterfront-community .slide-info ul li {
+    font-size: 15px;
+    line-height: 28px;
     margin-top: 0;
+  }
+  #the-waterfront-community .slide-info ul li span {
+    font-size: 20px;
+    position: relative;
+    top: 3px;
   }
   #the-waterfront-community .slide-info img {
     margin: 0;

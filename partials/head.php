@@ -11,7 +11,7 @@
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
   <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,700i" rel="stylesheet">
   <!-- Normalize -->
   <link rel="stylesheet" href="css/normalize.css">
   <!-- Bootstrap -->
