@@ -25,7 +25,7 @@
 
         <div class="row grey-bg">
 
-          <div class="col-sm-5 col-md-offset-1 col-md-5">
+          <div class="col-sm-5 col-md-offset-2 col-md-4">
 
             <div class="hidden-xs">
               <?php include 'partials/incentives-callout.php'; ?>
@@ -33,7 +33,7 @@
 
           </div>
 
-          <div class="col-sm-7 col-md-6">
+          <div class="col-sm-7 col-md-5">
             <img src="img/incentives/info-graphic-top.svg" class="infographic-top img-responsive">
           </div>
 
@@ -57,19 +57,19 @@
       <div class="row">
         
         <div class="col-md-offset-2 col-md-8">
-          
           <img src="img/incentives/infographic-mobile.png" class="infographic visible-xs img-responsive">
           <img src="img/incentives/info-graphic-bottom.svg" class="infographic hidden-xs img-responsive">
+        </div>
 
+        <div class="col-md-12">
           <p class="more-info text-center hidden-xs">
             For more information on the NJ Grow Program in Camden, please visit the New Jersey Economic<br>
             Development Authority (NJEDA) website: <a href="http://www.njeda.com/pdfs/GSGZ_Camden.aspx" target="_blank">http://www.njeda.com/pdfs/GSGZ_Camden.aspx</a><br>
             <span>*Businesses should consult with the NJEDA to determine their maximum tax credit eligibility.</span>
-          </p>
-
+          </p>          
         </div>
 
-      </div>
+      </div><!-- .row -->
 
     </div>
 

@@ -11,6 +11,14 @@
       
     <?php include 'partials/header.php'; ?>
 
+    <div class="container">
+      <div class="row visible-xs">
+        <div class="col-md-12">
+          <h1>Build-to-Suit Opportunities</h1>
+        </div>
+      </div>
+    </div>
+
     <div class="slider">
       <div class="custom-slide">
         <img src="img/suit/slider/slide_01.jpg">
