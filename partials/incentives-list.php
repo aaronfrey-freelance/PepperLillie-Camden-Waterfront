@@ -1,5 +1,5 @@
 <div class="row">
-  <div class="col-sm-12 col-md-offset-2 col-md-8">
+  <div class="col-sm-12">
     <ul>
       <li>Over $1.65 billion dollars have been awarded by the New Jersey Economic Development Authority (NJEDA) through the Grow NJ program to a range of companies including American Water, Holtec International, Lockheed Martin, and Subaru.</li>
       <li>All industries are eligible for the Grow NJ tax credit incentive, and bonuses are available for target industries.</li>

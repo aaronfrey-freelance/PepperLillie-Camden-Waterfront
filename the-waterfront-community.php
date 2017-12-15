@@ -11,7 +11,7 @@
       
     <?php include 'partials/header.php'; ?>
 
-    <div class="container">
+    <div class="container visible-xs">
       <div class="row">
         <div class="col-md-12">
           <h1>The Camden Waterfront Community</h1>

@@ -514,6 +514,8 @@ ul {
 
 #tax-incentives .infographic-top {
   margin: 0 auto;
+  max-width: 500px;
+
 }
 
 @media (min-width: 768px) {
@@ -786,9 +788,6 @@ ul {
   #tax-incentives .infographic {
     margin: 0 auto;
     padding: 84px 0 75px 0;
-  }
-  #tax-incentives .infographic-top {
-    padding: 0 25px;
   }
   #tax-incentives .content .call-out {
     background-color: #ffffff;

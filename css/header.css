@@ -126,11 +126,11 @@
 
 @media (min-width: 768px) {
   body {
-    padding-top: 200px;
+    padding-top: 150px;
   }
   .navbar {
     background-color: #ffffff;
-    height: 200px;
+    height: 150px;
     position: fixed;
     z-index: 99999;
   }
@@ -141,8 +141,8 @@
     float: none;
     width: auto;
     display: block;
-    margin-top: 50px;
-    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 10px;
   }
   .navbar .navbar-header .navbar-brand img {
     width: auto;
